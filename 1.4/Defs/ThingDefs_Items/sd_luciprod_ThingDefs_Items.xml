@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--=============== mech corpse ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>sd_luciprod_prep_mech_corpse</defName>
+    <label>prepared mechanoid corpse</label>
+    <description>The corpse of a mechanoid prepared for the stasis pod to produce mechanites for the luciferium production. It can be disasssembled at the machining table if not needed.</description>
+    <graphicData>
+      <texPath>sd_luciprod/sd_luciprod_mech_corpse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>50</Mass>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>

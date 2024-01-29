@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <sd_luciprod_rawlucibatch.label>lote de luciferio crudo</sd_luciprod_rawlucibatch.label>
+  <sd_luciprod_rawlucibatch.description>Lote crudo de luciferio, necesita ser preparado en el laboratorio de drogas para producir pastillas de luciferio.</sd_luciprod_rawlucibatch.description>
+  <sd_luciprod_mechanite_oil.label>aceite de mecanita</sd_luciprod_mechanite_oil.label>
+  <sd_luciprod_mechanite_oil.description>Esta es la versión mecanoide de la sangre humana. Contiene pequeñas cantidades de mecanitas que ayudan a alimentar estas enormes máquinas.</sd_luciprod_mechanite_oil.description>
+  <sd_luciprod_prep_mech_corpse.label>mecanoide preparado</sd_luciprod_prep_mech_corpse.label>
+  <sd_luciprod_prep_mech_corpse.description>El cadáver de un mecanoide, completamente preparado para la producción de mecanitas en luciferio.</sd_luciprod_prep_mech_corpse.description>
+</LanguageData>

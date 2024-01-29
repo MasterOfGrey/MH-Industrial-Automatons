@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Make Vanilla Things from Mechanical Products -->
+
+	<!-- Make Synthread -->
+	<RecipeDef>
+		<defName>ATR_MakeSynthreadCloth</defName>
+		<label>Weave synthread cloth (10)</label>
+		<description>Weave synthread cloth from polysynthoprene thread.\n\nMakes 10 cloth.</description>
+		<jobString>Weaving synthread cloth.</jobString>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>1600</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_PolysynthopreneThread</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ATR_PolysynthopreneThread</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Synthread>10</Synthread>
+		</products>
+		<recipeUsers>
+			<li>ATR_ProductRefinementTable</li>
+        </recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>ATR_MakeSynthreadClothBulk</defName>
+		<label>Weave synthread cloth (40)</label>
+		<description>Weave synthread cloth from polysynthoprene thread.\n\nMakes 40 cloth.</description>
+		<jobString>Weaving bulk synthread cloth.</jobString>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>5000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_PolysynthopreneThread</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ATR_PolysynthopreneThread</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Synthread>40</Synthread>
+		</products>
+		<recipeUsers>
+			<li>ATR_ProductRefinementTable</li>
+        </recipeUsers>
+	</RecipeDef>
+
+	<!-- Make Unfinished Hyperweave -->
+	<RecipeDef>
+		<defName>ATR_MakeUnfinishedHyperweaveCloth</defName>
+		<label>Weave unfinished hyperweave cloth (15)</label>
+		<description>Weave unfinished hyperweave cloth from carefully chosen ingredients.\n\nMakes 15 cloth.</description>
+		<jobString>Weaving unfinished hyperweave cloth.</jobString>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>3200</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_PolysynthopreneThread</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>SmokeleafLeaves</li>
+				  </thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DevilstrandCloth</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_PlasteelFibres</li>
+					</thingDefs>
+				</filter>
+				<count>200</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ATR_PolysynthopreneThread</li>
+				<li>SmokeleafLeaves</li>
+				<li>DevilstrandCloth</li>
+				<li>ATR_PlasteelFibres</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ATR_UnfinishedHyperweave>15</ATR_UnfinishedHyperweave>
+		</products>
+		<recipeUsers>
+			<li>ATR_ProductRefinementTable</li>
+        </recipeUsers>
+		<researchPrerequisite>ATR_MechaniteRepurposing</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>ATR_MakeUnfinishedHyperweaveClothBulk</defName>
+		<label>Weave unfinished hyperweave cloth (60)</label>
+		<description>Weave unfinished hyperweave cloth from carefully chosen ingredients.\n\nMakes 60 cloth.</description>
+		<jobString>Weaving bulk unfinished hyperweave cloth.</jobString>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>10000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_PolysynthopreneThread</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>SmokeleafLeaves</li>
+				  </thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DevilstrandCloth</li>
+					</thingDefs>
+				</filter>
+				<count>48</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_PlasteelFibres</li>
+					</thingDefs>
+				</filter>
+				<count>800</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ATR_PolysynthopreneThread</li>
+				<li>SmokeleafLeaves</li>
+				<li>DevilstrandCloth</li>
+				<li>ATR_PlasteelFibres</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ATR_UnfinishedHyperweave>60</ATR_UnfinishedHyperweave>
+		</products>
+		<recipeUsers>
+			<li>ATR_ProductRefinementTable</li>
+        </recipeUsers>
+		<researchPrerequisite>ATR_MechaniteRepurposing</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Make Hyperweave -->
+	<RecipeDef>
+		<defName>ATR_MakeHyperweaveCloth</defName>
+		<label>Finish hyperweave cloth (15)</label>
+		<description>Create hyperweave cloth from unfinished hyperweave.\n\nMakes 15 cloth.</description>
+		<jobString>Finishing hyperweave cloth.</jobString>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>600</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_UnfinishedHyperweave</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_CeruleanMechanites</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATB_ChemCapsule</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ATR_UnfinishedHyperweave</li>
+				<li>ATR_CeruleanMechanites</li>
+				<li>ATB_ChemCapsule</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hyperweave>15</Hyperweave>
+		</products>
+		<recipeUsers>
+			<li>ATR_ProductRefinementTable</li>
+        </recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>ATR_MakeHyperweaveClothBulk</defName>
+		<label>Finish hyperweave cloth (60)</label>
+		<description>Create hyperweave cloth from unfinished hyperweave.\n\nMakes 60 cloth.</description>
+		<jobString>Finishing bulk hyperweave cloth.</jobString>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>2000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_UnfinishedHyperweave</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_CeruleanMechanites</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATB_ChemCapsule</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ATR_UnfinishedHyperweave</li>
+				<li>ATR_CeruleanMechanites</li>
+				<li>ATB_ChemCapsule</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hyperweave>60</Hyperweave>
+		</products>
+		<recipeUsers>
+			<li>ATR_ProductRefinementTable</li>
+        </recipeUsers>
+		<researchPrerequisite>ATR_MechaniteRepurposing</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

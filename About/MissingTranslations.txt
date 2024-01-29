@@ -1,0 +1,480 @@
+This file acts as a register for translation localisations needed for this mod.
+The directory reference lists each individual line required to support it, including patched lines, and lists the Needed or Outdated language translations for languages that already have partial localisation.
+
+If you would like to submit a localisation update for your language, please update this file accordingly.
+
+Existing partially localised languages: German, Russian, Spanish, SpanishLatin
+
+The following are the individual translation localisations required to fully support this mod, with language gaps noted per Def:
+
+DefInjected
+	Drugs
+		MoG_IA_MechaniteOil
+			- <ATR_MechaniteOil.description>
+				Needed: Russian
+				Outdated: /English/, German, Spanish, SpanishLatin
+	HeaddiffDefs
+		MoG_IA_BodyParts
+			- <ATR_ContinuousTreadLeg.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_ContinuousTreadLeg.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+	JobDefs
+		sd_luciprod_JobDefs
+			- <sd_luciprod_filldistillery.reportString>
+				Needed: Russian
+			- <sd_luciprod_takelucioutofdistillery.reportString>
+				Needed: Russian
+	RecipeDefs
+		MoG_IA_BodyParts
+			- <ATR_Install_ContinuousTreadLeg.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Install_ContinuousTreadLeg.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Install_ContinuousTreadLeg.jobString>
+				Needed: /English/, German, Spanish, SpanishLatin
+
+		MoG_IA_Mechanite_Recipes
+			- <ATR_ExtractMechaniteOil_Unassisted.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_ExtractMechaniteOil_Unassisted.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_ExtractMechaniteOil_Unassisted.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_ExtractMechaniteOil_Supported.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_ExtractMechaniteOil_Supported.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_ExtractMechaniteOil_Supported.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_FilterMechaniteOil.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_FilterMechaniteOil.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_FilterMechaniteOil.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_ScarletMechaniteOil.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_ScarletMechaniteOil.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_ScarletMechaniteOil.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_CeruleanMechanites.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_CeruleanMechanites.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_CeruleanMechanites.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+
+		MoG_IA_Manufactured_Recipes
+			- <ATR_MakeSynthreadCloth.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MakeSynthreadCloth.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MakeSynthreadCloth.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MakeSynthreadClothBulk.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MakeSynthreadClothBulk.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MakeSynthreadClothBulk.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+				
+			- <ATR_MakeUnfinishedHyperweaveCloth.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MakeUnfinishedHyperweaveCloth.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+				(Expanded in VGP Patch)
+			- <ATR_MakeUnfinishedHyperweaveCloth.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MakeUnfinishedHyperweaveClothBulk.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MakeUnfinishedHyperweaveClothBulk.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+				(Expanded in VGP Patch)
+			- <ATR_MakeUnfinishedHyperweaveClothBulk.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			
+			- <ATR_MakeHyperweaveCloth.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MakeHyperweaveCloth.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MakeHyperweaveCloth.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MakeHyperweaveClothBulk.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MakeHyperweaveClothBulk.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MakeHyperweaveClothBulk.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			
+		MoG_IA_Product_Recipes
+			- <ATR_Make_S_FibresIntoYarn.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_S_FibresIntoYarn.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_S_FibresIntoYarn.jobString>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_4_S_FibresIntoYarn.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_4_S_FibresIntoYarn.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_4_S_FibresIntoYarn.jobString>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_S_FibresIntoSteel.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_S_FibresIntoSteel.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_S_FibresIntoSteel.jobString>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_5_S_FibresIntoSteel.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_5_S_FibresIntoSteel.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_5_S_FibresIntoSteel.jobString>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_10_S_FibresIntoSteel.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_10_S_FibresIntoSteel.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_10_S_FibresIntoSteel.jobString>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_S_FibresInto_P_Fibres.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_S_FibresInto_P_Fibres.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_S_FibresInto_P_Fibres.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_4_S_FibresInto_P_Fibres.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_4_S_FibresInto_P_Fibres.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_4_S_FibresInto_P_Fibres.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			
+			- <ATR_Make_S_YarnIntoFibres.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_S_YarnIntoFibres.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_S_YarnIntoFibres.jobString>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_2_S_YarnIntoFibres.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_2_S_YarnIntoFibres.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_2_S_YarnIntoFibres.jobString>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_S_YarnIntoSteel.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_S_YarnIntoSteel.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_S_YarnIntoSteel.jobString>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_5_S_YarnIntoSteel.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_5_S_YarnIntoSteel.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_5_S_YarnIntoSteel.jobString>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			
+			- <ATR_Make_SteelInto_S_Fibres.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_SteelInto_S_Fibres.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_SteelInto_S_Fibres.jobString>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_2_SteelInto_S_Fibres.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			- <ATR_Make_2_SteelInto_S_Fibres.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_Make_2_SteelInto_S_Fibres.jobString>
+				Needed: /English/, German, Spanish, SpanishLatin
+				Outdated: Russian
+			
+			- <ATR_Make_P_FibresIntoMatt.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_P_FibresIntoMatt.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_P_FibresIntoMatt.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_4_P_FibresIntoMatt.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_4_P_FibresIntoMatt.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_4_P_FibresIntoMatt.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_P_FibresIntoPlasteel.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_P_FibresIntoPlasteel.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_P_FibresIntoPlasteel.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_5_P_FibresIntoPlasteel.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_5_P_FibresIntoPlasteel.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_5_P_FibresIntoPlasteel.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_10_P_FibresIntoPlasteel.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_10_P_FibresIntoPlasteel.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_10_P_FibresIntoPlasteel.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			
+			- <ATR_Make_P_MattIntoPlasteel.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_P_MattIntoPlasteel.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_P_MattIntoPlasteel.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_5_P_MattIntoPlasteel.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_5_P_MattIntoPlasteel.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_5_P_MattIntoPlasteel.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			
+			- <ATR_Make_PlasteelInto_P_Fibres.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_PlasteelInto_P_Fibres.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_PlasteelInto_P_Fibres.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_2_PlasteelInto_P_Fibres.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_2_PlasteelInto_P_Fibres.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_2_PlasteelInto_P_Fibres.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			
+			- <ATR_Make_PolysynthopreneThread.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_PolysynthopreneThread.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_PolysynthopreneThread.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_4_PolysynthopreneThread.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_4_PolysynthopreneThread.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_Make_4_PolysynthopreneThread.jobString>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			
+			(Patched) MoG_IA_ATRPatch:
+				- <ATR_Make_NutritionBlockFromSolutionAndCapsules.label>
+					Needed: /English/, German, Russian, Spanish, SpanishLatin
+			
+			(Patched) MoG_IA_VGPFabricsPatch:
+				- <MakePlasteelThread.label>
+					Needed: /English/, German, Russian, Spanish, SpanishLatin
+				- <MakePlasteelThread.description>
+					Needed: /English/, German, Russian, Spanish, SpanishLatin
+				- <MakePlasteelThread.jobString>
+					Needed: /English/, German, Russian, Spanish, SpanishLatin
+				- <MakeHyperweaveCloth.label>
+					Needed: /English/, German, Russian, Spanish, SpanishLatin
+				- <MakeHyperweaveCloth.description>
+					Needed: /English/, German, Russian, Spanish, SpanishLatin
+				- <MakeHyperweaveCloth.jobString>
+					Needed: /English/, German, Russian, Spanish, SpanishLatin
+				- <MakeHyperweaveClothBulk.label>
+					Needed: /English/, German, Russian, Spanish, SpanishLatin
+				- <MakeHyperweaveClothBulk.description>
+					Needed: /English/, German, Russian, Spanish, SpanishLatin
+				- <MakeHyperweaveClothBulk.jobString>
+					Needed: /English/, German, Russian, Spanish, SpanishLatin
+		sd_luciprod_RecipeDefs
+			- <sd_luciprod_prepare_mech.label>
+				Needed: Russian
+			- <sd_luciprod_prepare_mech.description>
+				Needed: Russian
+			- <sd_luciprod_prepare_mech.jobString>
+				Needed: Russian
+			- <sd_luciprod_make_luci.label>
+				Needed: Russian
+			- <sd_luciprod_make_luci.description>
+				Needed: Russian
+				Outdated: Needed: /English/, German, Spanish, SpanishLatin
+			- <sd_luciprod_make_luci.jobString>
+				Needed: Russian
+			- <sd_luciprod_disassemble_prepcorpse.label>
+				Needed: Russian
+			- <sd_luciprod_disassemble_prepcorpse.description>
+				Needed: Russian
+			- <sd_luciprod_disassemble_prepcorpse.jobString>
+				Needed: Russian
+	ResearchProjectDefs
+		MoG_IA_Industrial
+			- <ATR_AutonomousIndustrialization.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_AutonomousIndustrialization.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_IndustrialUtilityFrameworks.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_IndustrialUtilityFrameworks.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_MilitaryFrameworks.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_MilitaryFrameworks.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+		MoG_IA_Spacer
+			- <ATR_SpacerSynthesisTechniques.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_SpacerSynthesisTechniques.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MechaniteHandling.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MechaniteHandling.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MechaniteRepurposing.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_MechaniteRepurposing.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+		sd_luciprod_ResearchProjectDefs
+				Outdated: All (to be delated)
+	ThingCategoryDefs
+		MoG_IA_ThingCategories
+			- <ATR_MechanicalProducts.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+	ThingDefs
+		MoG_IA_BodyParts
+			- <ATR_ContinuousTreadLeg.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_ContinuousTreadLeg.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+				
+		MoG_IA_Furniture
+			- <ATR_ProductRefinementTable.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_ProductRefinementTable.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <sd_luciprod_distillery.label>
+				Needed: Russian
+				Outdated: Needed: /English/, German, Spanish, SpanishLatin
+			- <sd_luciprod_distillery.description>
+				Needed: Russian
+				Outdated: Needed: /English/, German, Spanish, SpanishLatin
+
+		sd_luciprod_ThingDefs_Buildings
+			- <sd_luciprod_mechstasispod.label>
+				Needed: Russian
+			- <sd_luciprod_mechstasispod.description>
+				Needed: Russian
+
+		MoG_IA_Product_Things
+			- <ATR_SteelFibres.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_SteelFibres.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_SteelYarn.label>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_SteelYarn.description>
+				Needed: /English/, German, Spanish, SpanishLatin
+			- <ATR_PlasteelFibres.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_PlasteelFibres.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_PlasteelMatt.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_PlasteelMatt.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_PolysynthopreneThread.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_PolysynthopreneThread.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_UnfinishedHyperweave.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_UnfinishedHyperweave.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			
+			- <ATR_FilteredMechaniteOil.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <ATR_FilteredMechaniteOil.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <sd_luciprod_mechanite_oil.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <sd_luciprod_mechanite_oil.description>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <sd_luciprod_rawlucibatch.label>
+				Needed: Russian
+				Outdated: Needed: /English/, German, Spanish, SpanishLatin
+			- <sd_luciprod_rawlucibatch.description>
+				Needed: Russian
+				Outdated: Needed: /English/, German, Spanish, SpanishLatin
+
+		sd_luciprod_ThingDefs_Items
+			- <sd_luciprod_prep_mech_corpse.label>
+				Needed: Russian
+			- <sd_luciprod_prep_mech_corpse.description>
+				Needed: Russian
+	WorkGiverDefs
+		MoG_IA_WorkGivers
+			- <DoBillsProductRefinement.label>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <DoBillsProductRefinement.verb>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+			- <DoBillsProductRefinement.gerund>
+				Needed: /English/, German, Russian, Spanish, SpanishLatin
+		sd_luciprod_WorkGiverDefs
+			- <sd_luciprod_takelucioutofdistillery.label>
+				Needed: Russian
+			- <sd_luciprod_takelucioutofdistillery.verb>
+				Needed: Russian
+			- <sd_luciprod_takelucioutofdistillery.gerund>
+				Needed: Russian
+			- <sd_luciprod_filldistillery.label>
+				Needed: Russian
+			- <sd_luciprod_filldistillery.verb>
+				Needed: Russian
+			- <sd_luciprod_filldistillery.gerund>
+				Needed: Russian
+			- <sd_luciprod_dobillsmechpod.label>
+				Needed: Russian
+			- <sd_luciprod_dobillsmechpod.verb>
+				Needed: Russian
+			- <sd_luciprod_dobillsmechpod.gerund>
+				Needed: Russian
+			- <sd_luciprod_DoBillsMedicalMechanoidOperation.label>
+				Needed: Russian
+			- <sd_luciprod_DoBillsMedicalMechanoidOperation.verb>
+				Needed: Russian
+			- <sd_luciprod_DoBillsMedicalMechanoidOperation.gerund>
+				Needed: Russian
+Keyed
+	sd_luciprod_Keyed
+		- <sd_luciprod_txtcontainsrawluci>
+			Needed: Russian
+		- <sd_luciprod_txtcontainsoil>
+			Needed: Russian
+		- <sd_luciprod_txtdistilled>
+			Needed: Russian
+		- <sd_luciprod_txtdistillingprogress>
+			Needed: Russian
+		- <sd_luciprod_txtdistilleryoutofidealtemperature>
+			Needed: Russian
+		- <sd_luciprod_txttemperature>
+			Needed: Russian
+		- <sd_luciprod_txtidealdistillingtemperature>
+			Needed: Russian
+		- <sd_luciprod_txtbadtemperature>
+			Needed: Russian
+		- <sd_luciprod_txtnomechaniteoil>
+			Needed: Russian

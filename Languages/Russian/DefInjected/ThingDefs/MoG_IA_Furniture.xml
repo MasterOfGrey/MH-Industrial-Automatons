@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--Table for processing mechanical products-->
+  <ATR_ProductRefinementTable.label>Стол для обработки механических изделий</ATR_ProductRefinementTable.label>
+  <!--A table that holds all equipment needed to process the various products of mechanical mimetics.-->
+  <ATR_ProductRefinementTable.description>Стол, на котором находится всё необходимое оборудование, для обработки различных механических изделий.</ATR_ProductRefinementTable.description>
+
+</LanguageData>

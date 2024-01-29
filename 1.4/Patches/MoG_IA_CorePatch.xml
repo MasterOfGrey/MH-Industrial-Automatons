@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Patch vanilla recipe for mechanite oil byproduct -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/RecipeDef[defName = "ButcherCorpseMechanoid"]</xpath>
+		<value>
+		<products>
+			<sd_luciprod_mechanite_oil>1</sd_luciprod_mechanite_oil>
+		</products>
+		</value>
+	</Operation>
+</Patch>

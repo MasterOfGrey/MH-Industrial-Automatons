@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <sd_luciprod_takelucioutofdistillery.label>nimmt Luciferium aus der Destillieranlage</sd_luciprod_takelucioutofdistillery.label>
+  <sd_luciprod_takelucioutofdistillery.verb>nimm Luciferium</sd_luciprod_takelucioutofdistillery.verb>
+  <sd_luciprod_takelucioutofdistillery.gerund>nimmt Luciferium aus</sd_luciprod_takelucioutofdistillery.gerund>
+  <sd_luciprod_filldistillery.label>Füllt Destillieranlage</sd_luciprod_filldistillery.label>
+  <sd_luciprod_filldistillery.verb>füllen</sd_luciprod_filldistillery.verb>
+  <sd_luciprod_filldistillery.gerund>füllt</sd_luciprod_filldistillery.gerund>
+  <sd_luciprod_dobillsmechpod.label>Extrahiert Roboteröl</sd_luciprod_dobillsmechpod.label>
+  <sd_luciprod_dobillsmechpod.verb>Roboteröl extrahieren</sd_luciprod_dobillsmechpod.verb>
+  <sd_luciprod_dobillsmechpod.gerund>extrahiert Roboteröl von</sd_luciprod_dobillsmechpod.gerund>
+  <sd_luciprod_DoBillsMedicalMechanoidOperation.label>arbeitet an Robotern</sd_luciprod_DoBillsMedicalMechanoidOperation.label>
+  <sd_luciprod_DoBillsMedicalMechanoidOperation.verb>arbeiten</sd_luciprod_DoBillsMedicalMechanoidOperation.verb>
+  <sd_luciprod_DoBillsMedicalMechanoidOperation.gerund>arbeitet</sd_luciprod_DoBillsMedicalMechanoidOperation.gerund>
+</LanguageData>

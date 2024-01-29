@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ATR_MechaniteOil.label>Roboteröl</ATR_MechaniteOil.label>
+	<ATR_MechaniteOil.description>Dies ist die Robotervariante von menschlichem Blut. Es enthält Spuren von kleinen Naniterobotern, welche die großen Roboter von innen am Laufen halten.</ATR_MechaniteOil.description>
+</LanguageData>

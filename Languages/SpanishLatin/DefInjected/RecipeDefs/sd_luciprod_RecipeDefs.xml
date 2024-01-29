@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <sd_luciprod_extract_oil_pod.label>extraer aceite de mecanita</sd_luciprod_extract_oil_pod.label>
+  <sd_luciprod_extract_oil_pod.description>Extrae aceite de mecanita.</sd_luciprod_extract_oil_pod.description>
+  <sd_luciprod_extract_oil_pod.jobString>Extrayendo aceite de mecanita.</sd_luciprod_extract_oil_pod.jobString>
+  <sd_luciprod_prepare_mech.label>preparar mecanoide</sd_luciprod_prepare_mech.label>
+  <sd_luciprod_prepare_mech.description>Prepara un cadáver de mecanoide para usar en la mesa de estasis.</sd_luciprod_prepare_mech.description>
+  <sd_luciprod_prepare_mech.jobString>Preparando mecanoide.</sd_luciprod_prepare_mech.jobString>
+  <sd_luciprod_make_luci.label>preparar luciferio</sd_luciprod_make_luci.label>
+  <sd_luciprod_make_luci.description>Produce 5 pastillas de luciferio a partir de 10 neutroaminas y 10 lotes crudos.</sd_luciprod_make_luci.description>
+  <sd_luciprod_make_luci.jobString>Produciendo luciferio.</sd_luciprod_make_luci.jobString>
+  <sd_luciprod_disassemble_prepcorpse.label>desarmar mecanoide preparado</sd_luciprod_disassemble_prepcorpse.label>
+  <sd_luciprod_disassemble_prepcorpse.description>Desensambla un mecanoide preparado para obtener sus componentes.</sd_luciprod_disassemble_prepcorpse.description>
+  <sd_luciprod_disassemble_prepcorpse.jobString>Desarmando mecanoide.</sd_luciprod_disassemble_prepcorpse.jobString>
+</LanguageData>

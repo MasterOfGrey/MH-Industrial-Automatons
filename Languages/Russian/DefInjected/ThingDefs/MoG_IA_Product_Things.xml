@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--Steel fibres-->
+  <ATR_SteelFibres.label>Стальные волокна</ATR_SteelFibres.label>
+  <!--Steel fibres, either produced by phytomining or stripped from steel. Their creation process makes them weakly magnetic which binds them into bunches just large enough to be handled... delicately. Can be smelted into steel or processed into other products.-->
+  <ATR_SteelFibres.description>Стальные волокна, либо полученные методом фитоминирования, либо полученные из стали. Процесс создания делает их слабомагнитными, что связывает их в достаточно большие волокна, чтобы с ними можно было работать... деликатно.\n\n Могут быть выплавлены в сталь или переработаны в другие изделия.</ATR_SteelFibres.description>
+
+  <!--Metallic yarn-->
+  <ATR_SteelYarn.label>Стальная пряжа</ATR_SteelYarn.label>
+  <!--Faux textile formed from steel fibres spun to create a metallic yarn. Can be used as a fabric to make clothing at the expense of weight and lack of insulation.\n\n Not recommended for human colonists as the scratchy texture is sure to infuriate anyone without masochistic tendencies. Androids will not be affected.-->
+  <ATR_SteelYarn.description>Искусственный текстиль, изготовленный из стальных волокон, скрученных для создания металлической пряжи. Может использоваться в качестве ткани для изготовления одежды, с дополнительными защитными свойствами, но с отрицательной теплоизоляцией.\n\n Не рекомендуется для ношения колонистами-людьми, так как колючая текстура наверняка приведет в бешенство любого, у кого нет мазохистских наклонностей. Андроидам это не помешает.</ATR_SteelYarn.description>
+
+</LanguageData>

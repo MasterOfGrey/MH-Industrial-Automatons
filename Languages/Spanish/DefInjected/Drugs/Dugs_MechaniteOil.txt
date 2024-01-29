@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ATR_MechaniteOil.label>Aceite de mecanita</ATR_MechaniteOil.label>
+	<ATR_MechaniteOil.description>Esta es la versión mecanoide de la sangre humana. Contiene pequeñas cantidades de mecanitas que ayudan a alimentar estas enormes máquinas.</ATR_MechaniteOil.description>
+</LanguageData>

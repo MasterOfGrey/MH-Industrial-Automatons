@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Metal Stuff -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>ATR_SteelFibres</defName>
+		<label>Steel fibres</label>
+		<description>Steel fibres, either produced by phytomining or stripped from steel. Their creation process makes them weakly magnetic which binds them into bunches just large enough to be handled... delicately. Can be smelted into steel or processed into other products.</description>
+		<graphicData>
+			<texPath>Things/SteelFibres</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+		  <MaxHitPoints>100</MaxHitPoints>
+		  <MarketValue>0.1</MarketValue>
+		  <Mass>0.002</Mass>
+		  <Flammability>1.0</Flammability>
+		  <DeteriorationRate>4</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>ATR_MechanicalProducts</li>
+		</thingCategories>
+		<stackLimit>20000</stackLimit>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>ATR_SteelYarn</defName>
+		<label>Steel yarn</label>
+		<description>Faux textile formed from steel fibres spun to create a metallic yarn. Can be used as a fabric to make clothing at the expense of weight and lack of insulation.\n\nNot recommended for human colonists as the scratchy texture is sure to infuriate anyone without masochistic tendencies. Androids will not be affected.</description>
+		<graphicData>
+			<texPath>Things/SteelYarn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<MarketValue>2.15</MarketValue>
+			<Mass>0.032</Mass>
+			<Flammability>1.2</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<StuffPower_Armor_Sharp>1.48</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.26</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>-2</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>-4</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0.01</commonality>
+			<color>(82,82,82)</color>
+			<statOffsets>
+				<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+				<ArmorRating_Heat>-0.1</ArmorRating_Heat>
+			</statOffsets>
+			<statFactors>
+				<WorkToMake>2</WorkToMake>
+				<Flammability>0.2</Flammability>
+				<MaxHitPoints>1.6</MaxHitPoints>
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>Textiles</li>
+			<li>ATR_MechanicalProducts</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>ATR_PlasteelFibres</defName>
+		<label>Plasteel fibres</label>
+		<description>Plasteel fibres, either produced by advanced phytomining or stripped from plasteel. Their creation process makes them weakly magnetic which binds them into bunches just large enough to be handled... delicately. Can be smelted into plasteel or processed into other products.</description>
+		<graphicData>
+			<texPath>Things/PlasteelFibres</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+		  <MaxHitPoints>100</MaxHitPoints>
+		  <MarketValue>0.1</MarketValue>
+		  <Mass>0.002</Mass>
+		  <Flammability>1.0</Flammability>
+		  <DeteriorationRate>4</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>ATR_MechanicalProducts</li>
+		</thingCategories>
+		<stackLimit>20000</stackLimit>
+	</ThingDef>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>ATR_PlasteelMatt</defName>
+		<label>Plasteel matt</label>
+		<description>A metallic analogue of matted fur, which is then scraped and treated in a process similar to tanning leather. This faux leather formed from plasteel fibres can be used as a substitute for leather in any normal leather product. Requires significantly more work to use for crafting in this way.\n\nThe unique structure and pseudo-bonds formed by the fibres of this material make it astonishingly resistant to sudden blunt force deformation, while remaining supple and flexible in the range of low-energy states associated with normal movement.</description>
+		<graphicData>
+			<texPath>Things/PlasteelMatt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<MarketValue>2.15</MarketValue>
+			<Mass>0.032</Mass>
+			<Flammability>0.1</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<StuffPower_Armor_Sharp>1.98</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.86</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.2</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Leathery</li>
+			</categories>
+			<commonality>0.01</commonality>
+			<color>(82,82,82)</color>
+			<statOffsets>
+				<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+				<ArmorRating_Heat>-0.1</ArmorRating_Heat>
+			</statOffsets>
+			<statFactors>
+				<WorkToMake>2</WorkToMake>
+				<Flammability>0.02</Flammability>
+				<MaxHitPoints>2</MaxHitPoints>
+				<Beauty>5</Beauty>
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>ATR_MechanicalProducts</li>
+		</thingCategories>
+	</ThingDef>
+
+	<!-- Textile Stuff -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>ATR_PolysynthopreneThread</defName>
+		<label>Polysynthoprene thread</label>
+		<description>The basic material of synthread fabric and the base element of other higher tier textiles. On worlds with proper facilities the chemical stew from which the thread is polymerized is drawn on by large automated machines that constantly draw thousands of threads at a time and weave them directly into synthread. These machines make an otherwise laborious process trivial, hence the popularity of synthread in spacer societies.\n\nDue to the limitations of rimworld manufacturing facilities it is necessary to manually synthesise the thread onto spools before then weaving it into whole cloth.</description>
+		<graphicData>
+			<texPath>Things/PolysynthopreneThread</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<MarketValue>2.4</MarketValue>
+			<Mass>0.025</Mass>
+			<Flammability>0.7</Flammability>
+			<DeteriorationRate>3</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>ATR_MechanicalProducts</li>
+		</thingCategories>
+		<techLevel>Spacer</techLevel>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>ATR_UnfinishedHyperweave</defName>
+		<label>Unfinished hyperweave</label>
+		<description>True hyperweave is comprised of mano-fibers woven into sheets at industrial scale, produced molecule-by-molecule using raw resources and specialized production mechanites. With access to appropriate mechanites this can be performed at a small scale, but requires the creation of an interim product which contains the right mix of raw resources.\n\nBy weaving cloth from polysynthoprene, plasteel fibres, hemp, and devilstrand, the result is a type of unfinished cloth which is suitable for processing into hyperweave. Unfortunately, the unfinished fabric is prone to dismantling itself. Without proper processing the plasteel fibres gradually shred the others, making this a very poor material to use for anything other than eventually creating hyperweave.</description>
+		<graphicData>
+			<texPath>Things/UnfinishedHyperweave</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<MarketValue>4.2</MarketValue>
+			<Mass>0.038</Mass>
+			<Flammability>0.7</Flammability>
+			<DeteriorationRate>1.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.10</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.10</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.45</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>21</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>21</StuffPower_Insulation_Heat>
+		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<minRewardCount>30</minRewardCount>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0.10</commonality>
+			<color>(0,106,126)</color>
+			<statFactors>
+				<Flammability>0.7</Flammability>
+				<MaxHitPoints>0.8</MaxHitPoints>
+				<Beauty>1.7</Beauty>
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>ATR_MechanicalProducts</li>
+		</thingCategories>
+	</ThingDef>
+
+	<!-- Mechanite Stuff -->
+		<!-- Basics -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>ATR_FilteredMechaniteOil</defName>
+		<label>Filtered mechanite oil</label>
+		<description>Extracted mechanite oil, chemically filtered to separate the mechanites from the soup of different oils and solid compounds present in the sustaining fluid of a mechanoid. This vial contains just enough of a thin, clean, oil to allow the mechanites to move around freely in suspension still.\n\nThis prevents the mechanites from settling and aggregating into a mass which can be mistaken by other mechanites as for a machine that needs improvement. This aggregation behavior is a great hazard for default maintenance mechanites, as they will quickly waste many days of effort spent on extracting them by rapidly processing each other into a smooth and neatly ordered, but totally inert, metal lump.</description>
+		<graphicData>
+			<texPath>Things/FilteredMechaniteOil</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>400</stackLimit>
+		<statBases>
+			<MarketValue>40</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.5</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>ATR_MechanicalProducts</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+		<!-- Luciferium -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>sd_luciprod_mechanite_oil</defName> <!-- Defname preserved so I don't have to mess with the C# code for it. -->
+		<label>Scarlet incubator oil</label>
+		<description>Programming for repurposing alone is not enough to produce the high quality mechanites, driven to improve anything and everything they touch with reckless abandon, that are required to produce luciferium.\n\nThis solution of repurposed mechanites and carefully composed chemicals can be incubated in a suitable chemical distillery. There the conditions will harness latent programming to drive these mechanites into a battle-royale to improve each other. Those that burn out or get caught in processing loops will be consumed by the others until they reach ferociously efficient levels of functionality and reach the threshold of becoming the scarlet mechanites required for luciferium production.</description>
+		<graphicData>
+			<texPath>Things/ScarletIncubatorOil</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>400</stackLimit>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.5</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>ATR_MechanicalProducts</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>sd_luciprod_rawlucibatch</defName>
+		<label>Scarlet mechanites</label>
+		<description>This dish of scarlet mechanites is essentially a raw luciferium batch, needing just one extra production step to make luciferium pills at the drug lab. (Recipe requires neutroamine.)\n\nDue to these mechanites being both specialised, and only lightly contained, it is necessary to refrigerate them for storage or they will eventually become "frustrated" by the absence of purpose, eat their container and destroy themselves on only the energy provided by ambient temperature.</description>
+		<graphicData>
+			<texPath>sd_luciprod/sd_luciprod_raw_lucibatch</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>400</stackLimit>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.01</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>15</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>ATR_MechanicalProducts</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+		<!-- Hyperweave -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>ATR_CeruleanMechanites</defName>
+		<label>Cerulean mechanites</label>
+		<description>This dish of cerulean mechanites is prepared to be used in finishing hyperweave cloth.\n\nDue to these mechanites being both specialised, and only lightly contained, it is necessary to refrigerate them for storage or they will eventually become "frustrated" by the absence of purpose, eat their container and destroy themselves on only the energy provided by ambient temperature.</description>
+		<graphicData>
+			<texPath>Things/CeruleanMechanites</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>400</stackLimit>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.01</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>15</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>ATR_MechanicalProducts</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- Byproduct Stuff -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>ATR_Chemoil</defName>
+		<label>Chemoil</label>
+		<description>The oily byproduct remaining after chemically filtering the mechanites and desired suspension medium from mechanite oil. Equally as flammable as chemfuel, but not as explosive. Will leave an awful mess to clean up if accidentally ignited.</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Chemoil</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<intricate>true</intricate> <!-- Not returned to player when product made of this is smelted. -->
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>1.4</MarketValue>
+			<Mass>0.05</Mass>
+			<Flammability>2.0</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>ATR_MechanicalProducts</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.1</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.017</explosiveExpandPerStackcount>
+				<startWickOnDamageTaken>
+					<li>Flame</li>
+				</startWickOnDamageTaken>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<postExplosionSpawnThingDef>Filth_FireFoam</postExplosionSpawnThingDef>
+        		<postExplosionSpawnChance>1</postExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+</Defs>

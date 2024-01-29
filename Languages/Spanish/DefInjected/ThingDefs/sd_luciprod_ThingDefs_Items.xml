@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <sd_luciprod_rawlucibatch.label>lote de luciferium crudo</sd_luciprod_rawlucibatch.label>
+  <sd_luciprod_rawlucibatch.description>Lote crudo de luciferium, necesita ser preparado en el laboratorio de drogas para producir pastillas.</sd_luciprod_rawlucibatch.description>
+  <sd_luciprod_prep_mech_corpse.label>mecanoide preparado</sd_luciprod_prep_mech_corpse.label>
+  <sd_luciprod_prep_mech_corpse.description>El cadáver de un mecanoide, completamente preparado para la producción de mecanitas en luciferium.</sd_luciprod_prep_mech_corpse.description>
+</LanguageData>

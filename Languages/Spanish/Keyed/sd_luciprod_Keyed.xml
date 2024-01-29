@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <sd_luciprod_txtcontainsrawluci>Contiene lote de luciferium crudo</sd_luciprod_txtcontainsrawluci>
+  <sd_luciprod_txtcontainsoil>Contiene aceite de mecanita</sd_luciprod_txtcontainsoil>
+  <sd_luciprod_txtdistilled>Destilado.</sd_luciprod_txtdistilled>
+  <sd_luciprod_txtdistillingprogress>Progreso de destilación</sd_luciprod_txtdistillingprogress>
+  <sd_luciprod_txtdistilleryoutofidealtemperature>Destilería fuera de temperatura ideal.</sd_luciprod_txtdistilleryoutofidealtemperature>
+  <sd_luciprod_txttemperature>Temperatura</sd_luciprod_txttemperature>
+  <sd_luciprod_txtidealdistillingtemperature>Temperatura ideal de destilación</sd_luciprod_txtidealdistillingtemperature>
+  <sd_luciprod_txtbadtemperature>Mala temperatura</sd_luciprod_txtbadtemperature>
+  <sd_luciprod_txtnomechaniteoil>No contiene aceite de mecanita</sd_luciprod_txtnomechaniteoil>
+</LanguageData>

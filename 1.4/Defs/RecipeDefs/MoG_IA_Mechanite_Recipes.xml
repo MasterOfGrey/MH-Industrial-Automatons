@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Oils and Oil Exchanges -->
+	<!-- Extract Mechanite Oil from Stasis Pod - Unassisted-->
+	<RecipeDef>
+		<defName>ATR_ExtractMechaniteOil_Unassisted</defName>
+		<label>Extract mechanite oil (1)</label>
+		<description>Extract mechanite oil from the pod.</description>
+		<jobString>Extracting.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workAmount>3000</workAmount>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<products>
+			<ATR_MechaniteOil>1</ATR_MechaniteOil>
+		</products>
+		<recipeUsers>
+			<li>sd_luciprod_mechstasispod</li>
+		</recipeUsers>
+		<researchPrerequisite>ATR_MechaniteHandling</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Extract Mechanite Oil using recycled Chemoil -->
+	<RecipeDef>
+		<defName>ATR_ExtractMechaniteOil_Supported</defName>
+		<label>Use chemoil to extract mechanite oil (5)</label>
+		<description>Extract mechanite oil from the pod using recycled chemoil.</description>
+		<jobString>Extracting.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workAmount>4000</workAmount>
+		<skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_Chemoil</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ATR_Chemoil</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ATR_MechaniteOil>5</ATR_MechaniteOil>
+		</products>
+		<recipeUsers>
+			<li>sd_luciprod_mechstasispod</li>
+		</recipeUsers>
+		<researchPrerequisite>ATR_MechaniteHandling</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Filter Mechanite Oil -->
+	<RecipeDef>
+		<defName>ATR_FilterMechaniteOil</defName>
+		<label>Filter mechanite oil (1)</label>
+		<description>Filter mechanite oil to produce a refined product with a much higher concentration of mechanites and a large quantity of chemoil byproduct which can be re-used to improve subsequent mechanite oil extraction efforts.\n\nSynthread is needed to facilitate one of the filtration steps, since organic fibres will contaminate the product. The synthread degrades and is eventually dissolved in the waste chemoil byproduct.</description>
+		<jobString>Extracting.</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Drug</soundWorking>
+		<workAmount>1400</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workSkill>Intellectual</workSkill>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_MechaniteOil</li>
+					</thingDefs>
+				</filter>
+				<count>70</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATB_ChemCapsule</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Synthread</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ATR_MechaniteOil</li>
+				<li>ATB_ChemCapsule</li>
+				<li>Synthread</li>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ATR_FilteredMechaniteOil>1</ATR_FilteredMechaniteOil>
+			<ATR_Chemoil>550</ATR_Chemoil>
+		</products>
+		<recipeUsers>
+			<li>ATR_ProductRefinementTable</li>
+		</recipeUsers>
+		<researchPrerequisite>ATR_MechaniteHandling</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Scarlet Mechanite Oil -->
+	<RecipeDef>
+		<defName>ATR_Make_ScarletIncubatorOil</defName>
+		<label>Make scarlet incubator oil (5)</label>
+		<description>Use filtered mechanites and supporting materials to create a thick precursor suspension for scarlet mechanites.\n\nThese can be distilled into batches of scarlet mechanites which can then be crafted into luciferium.</description>
+		<jobString>Extracting.</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Drug</soundWorking>
+		<workAmount>1400</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workSkill>Intellectual</workSkill>
+		<skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_FilteredMechaniteOil</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATB_ChemCapsule</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ATR_FilteredMechaniteOil</li>
+				<li>ATB_ChemCapsule</li>
+				<li>Neutroamine</li>
+				<li>Silver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<sd_luciprod_mechanite_oil>5</sd_luciprod_mechanite_oil>
+		</products>
+		<recipeUsers>
+			<li>ATR_ProductRefinementTable</li>
+		</recipeUsers>
+		<researchPrerequisite>ATR_MechaniteRepurposing</researchPrerequisite>
+	</RecipeDef>
+
+<!-- Direct Mechanite Repurposing -->
+	<!-- Cerulean Mechanites -->
+	<RecipeDef>
+		<defName>ATR_Make_CeruleanMechanites</defName>
+		<label>Make cerulean mechanites (8)</label>
+		<description>Repurpose filtered mechanites to adopt the necessary programming to create hyperweave from suitably prepared raw material.\n\nThese can be applied to unfinished hyperweave cloth to transform it into the final product.</description>
+		<jobString>Repurposing.</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Drug</soundWorking>
+		<workAmount>1800</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workSkill>Intellectual</workSkill>
+		<skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_FilteredMechaniteOil</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATB_ChemCapsule</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_PlasteelFibres</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ATR_FilteredMechaniteOil</li>
+				<li>ATB_ChemCapsule</li>
+				<li>ATR_PlasteelFibres</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ATR_CeruleanMechanites>8</ATR_CeruleanMechanites>
+		</products>
+		<recipeUsers>
+			<li>ATR_ProductRefinementTable</li>
+		</recipeUsers>
+		<researchPrerequisite>ATR_MechaniteRepurposing</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

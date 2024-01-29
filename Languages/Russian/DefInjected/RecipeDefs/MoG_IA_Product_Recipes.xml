@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Make Yarn -->
+
+  <!--Spin steel fibres into steel yarn-->
+  <ATR_Make_S_FibresIntoYarn.label>Прясть стальные волокна в стальную пряжу</ATR_Make_S_FibresIntoYarn.label>
+  <!--Use special spinning tools to spin steel fibres into a wool-like yarn.-->
+  <ATR_Make_S_FibresIntoYarn.description>Используйте специальные прядильные инструменты для скручивания стальных волокон в пряжу, похожую на шерсть.</ATR_Make_S_FibresIntoYarn.description>
+  <!--Spinning steel yarn.-->
+  <ATR_Make_S_FibresIntoYarn.jobString>Прядёт стальную пряжу.</ATR_Make_S_FibresIntoYarn.jobString>
+
+  <!--Spin bulk (x4) steel fibres into steel yarn-->
+  <ATR_Make_4_S_FibresIntoYarn.label>Прясть стальные волокна в стальную пряжу х4</ATR_Make_5_S_FibresIntoYarn.label>
+  <!--Use special spinning tools to spin steel fibres into a wool-like yarn.-->
+  <ATR_Make_4_S_FibresIntoYarn.description>Используйте специальные прядильные инструменты для скручивания стальных волокон в пряжу, похожую на шерсть.</ATR_Make_5_S_FibresIntoYarn.description>
+  <!--Spinning steel yarn.-->
+  <ATR_Make_4_S_FibresIntoYarn.jobString>Прядёт стальную пряжу.</ATR_Make_5_S_FibresIntoYarn.jobString>
+
+
+  <!-- Make Steel -->
+
+  <!--Smelt metal fibres into steel-->
+  <ATR_Make_S_FibresIntoSteel.label>Переплавить стальные волокна в сталь</ATR_Make_S_FibresIntoSteel.label>
+  <!--Use heat and strong electromagnets to smelt metal fibres into solid blocks.-->
+  <ATR_Make_S_FibresIntoSteel.description>Используйте высокую температуру и сильные электромагниты, чтобы расплавить стальные волокна в цельные блоки стали.</ATR_Make_S_FibresIntoSteel.description>
+  <!--Smelting metal.-->
+  <ATR_Make_S_FibresIntoSteel.jobString>Выплавляет сталь.</ATR_Make_S_FibresIntoSteel.jobString>
+
+  <!--Smelt bulk (x5) metal fibres into steel-->
+  <ATR_Make_5_S_FibresIntoSteel.label>Переплавить стальные волокна в сталь х5</ATR_Make_5_S_FibresIntoSteel.label>
+  <!--Use heat and strong electromagnets to smelt metal fibres into solid blocks.-->
+  <ATR_Make_5_S_FibresIntoSteel.description>Используйте высокую температуру и сильные электромагниты, чтобы расплавить стальные волокна в цельные блоки стали.</ATR_Make_5_S_FibresIntoSteel.description>
+  <!--Smelting metal.-->
+  <ATR_Make_5_S_FibresIntoSteel.jobString>Выплавляет сталь.</ATR_Make_5_S_FibresIntoSteel.jobString>
+
+  <!--Smelt bulk (x10) metal fibres into steel-->
+  <ATR_Make_10_S_FibresIntoSteel.label>Переплавить стальные волокна в сталь х10</ATR_Make_10_S_FibresIntoSteel.label>
+  <!--Use heat and strong electromagnets to smelt metal fibres into solid blocks.-->
+  <ATR_Make_10_S_FibresIntoSteel.description>Используйте высокую температуру и сильные электромагниты, чтобы расплавить стальные волокна в цельные блоки стали.</ATR_Make_10_S_FibresIntoSteel.description>
+  <!--Smelting metal.-->
+  <ATR_Make_10_S_FibresIntoSteel.jobString>Выплавляет сталь.</ATR_Make_10_S_FibresIntoSteel.jobString>
+
+
+  <!-- Make Fibres -->
+
+  <!--Card steel yarn into steel fibres-->
+  <ATR_Make_S_YarnIntoFibres.label>Распустить стальную пряжу на стальные волокна</ATR_Make_S_YarnIntoFibres.label>
+  <!--Use special spinning tools to spin steel fibres into a wool-like yarn.-->
+  <ATR_Make_S_YarnIntoFibres.description>Используйте специальные прядильные инструменты для распускания стальных волокон в пряжу, похожую на шерсть.</ATR_Make_S_YarnIntoFibres.description>
+  <!--Carding steel yarn.-->
+  <ATR_Make_S_YarnIntoFibres.jobString>Прядёт стальные волокна.</ATR_Make_S_YarnIntoFibres.jobString>
+
+  <!--Card bulk (x2) steel yarn into steel fibres-->
+  <ATR_Make_2_S_YarnIntoFibres.label>Распустить стальную пряжу на стальные волокна х2</ATR_Make_2_S_YarnIntoFibres.label>
+  <!--Use special spinning tools to spin steel fibres into a wool-like yarn.-->
+  <ATR_Make_2_S_YarnIntoFibres.description>Используйте специальные прядильные инструменты для распускания стальных волокон в пряжу, похожую на шерсть.</ATR_Make_2_S_YarnIntoFibres.description>
+  <!--Carding steel yarn.-->
+  <ATR_Make_2_S_YarnIntoFibres.jobString>Прядёт стальные волокна.</ATR_Make_2_S_YarnIntoFibres.jobString>
+
+
+  <!-- Make Steel -->
+
+  <!--Smelt steel yarn into steel-->
+  <ATR_Make_S_YarnIntoSteel.label>Переплавить стальную пряжу в сталь</ATR_Make_S_YarnIntoSteel.label>
+  <!--Use heat and strong electromagnets to smelt steel yarn into solid blocks. Steel yarn is less dense and flammable, so some steel is lost.-->
+  <ATR_Make_S_YarnIntoSteel.description>Используйте высокую температуру и сильные электромагниты, чтобы переплавить стальную нить в твёрдые блоки. Стальная нить менее плотная и легковоспламеняющаяся, поэтому теряется некоторое количество стали.</ATR_Make_S_YarnIntoSteel.description>
+  <!--Smelting metal.-->
+  <ATR_Make_S_YarnIntoSteel.jobString>Выплавляет сталь.</ATR_Make_S_YarnIntoSteel.jobString>
+
+  <!--Smelt bulk (x5) steel yarn into steel-->
+  <ATR_Make_5_S_YarnIntoSteel.label>Переплавить стальную пряжу в сталь х5</ATR_Make_5_S_YarnIntoSteel.label>
+  <!--Use heat and strong electromagnets to smelt steel yarn into solid blocks. Steel yarn is less dense and flammable, so some steel is lost.-->
+  <ATR_Make_5_S_YarnIntoSteel.description>Используйте высокую температуру и сильные электромагниты, чтобы переплавить стальную нить в твёрдые блоки. Стальная нить менее плотная и легковоспламеняющаяся, поэтому теряется некоторое количество стали.</ATR_Make_5_S_YarnIntoSteel.description>
+  <!--Smelting metal.-->
+  <ATR_Make_5_S_YarnIntoSteel.jobString>Выплавляет сталь.</ATR_Make_5_S_YarnIntoSteel.jobString>
+
+
+  <!-- Make Fibres -->
+
+  <!--Strip steel into fibres-->
+  <ATR_Make_SteelInto_S_Fibres.label>Разделить сталь на стальные волокна</ATR_Make_SteelInto_S_Fibres.label>
+  <!--Use a series of geared rollers and a lathe to breakdown steel into thin fibres. Some steel is unavoidably wasted in this process.-->
+  <ATR_Make_SteelInto_S_Fibres.description>Используйте серию зубчатых роликов и токарный станок для преобразования стали в тонкие волокна. В этом процессе неизбежно теряется некоторое количество исходного материала.</ATR_Make_SteelInto_S_Fibres.description>
+  <!--Stripping steel.-->
+  <ATR_Make_SteelInto_S_Fibres.jobString>Изготавливает стальные волокна.</ATR_Make_SteelInto_S_Fibres.jobString>
+
+  <!--Strip bulk (x2) steel into fibres-->
+  <ATR_Make_2_SteelInto_S_Fibres.label>Разделить сталь на стальные волокна х2</ATR_Make_2_SteelInto_S_Fibres.label>
+  <!--Use a series of geared rollers and a lathe to breakdown steel into thin fibres. Some steel is unavoidably wasted in this process.-->
+  <ATR_Make_2_SteelInto_S_Fibres.description>Используйте серию зубчатых роликов и токарный станок для преобразования стали в тонкие волокна. В этом процессе неизбежно теряется некоторое количество исходного материала.</ATR_Make_2_SteelInto_S_Fibres.description>
+  <!--Stripping steel.-->
+  <ATR_Make_2_SteelInto_S_Fibres.jobString>Изготавливает стальные волокна.</ATR_Make_2_SteelInto_S_Fibres.jobString>
+
+
+</LanguageData>

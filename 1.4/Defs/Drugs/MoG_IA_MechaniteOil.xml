@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Mechanite Oil -->
+	<ThingDef ParentName="DrugPillBase">
+		<defName>ATR_MechaniteOil</defName>
+		<!-- <recipeMaker Inherit="False"></recipeMaker> -->
+		<label>Mechanite oil</label>
+		<description>This is the mechanoid version of human blood. It contains trace amounts of small mechanites which help maintain these huge machines from within.\n\nThis can have remarkable effects when applied to the systems of lesser machines; doing everything from improving energy efficiency to lowering maintenance loss and increasing overall mechanical resilience.</description>
+		<graphicData>
+			<texPath>sd_luciprod/sd_luciprod_mechanite_oil</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>400</stackLimit>
+		<statBases>
+			<MarketValue>30</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.5</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<techLevel>Ultra</techLevel>
+		<ingestible>
+            <preferability>NeverForNutrition</preferability>
+			<drugCategory>Medical</drugCategory>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<outcomeDoers>
+				<li Class="MechHumanlikes.IngestionOutcomeDoer_MechOrganicSplitEffects">
+					<organicEffect>ATR_Toxicated</organicEffect>
+                    <organicSeverity>1</organicSeverity>
+					<mechanicalEffect>ATR_MechaniteOil</mechanicalEffect>
+					<mechanicalSeverity>1</mechanicalSeverity>
+				</li>   
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>807</listOrder>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>ATR_MechanicalProducts</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!--HediffMechanical Mechanite Oil-->
+	<HediffDef>
+		<defName>ATR_MechaniteOil</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Mechanite oil</label>
+		<description>Synthetic chemical compound designed to reduce chassis susceptibility to adverse temperature - positive and negative. Not safe for organic consumption.</description>
+		<defaultLabelColor>(0.8,0.8,0.8)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+        <isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.1</severityPerDay>
+			</li>
+			<li Class="ATReforged.HediffCompProperties_RemoveHediffOnApply">
+				<hediffToRemove>ATR_CoolantLoss</hediffToRemove>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>Insignificant</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+
+			<li>
+				<minSeverity>0.1</minSeverity>
+				<label>Minor</label>
+				<hungerRateFactor>0.98</hungerRateFactor>
+				<statOffsets>
+					<MHC_MaintenanceRetention>.1</MHC_MaintenanceRetention>
+				</statOffsets>
+			</li>
+
+			<li>
+				<minSeverity>0.5</minSeverity>
+				<label>Moderate</label>
+				<hungerRateFactor>0.96</hungerRateFactor>
+				<statOffsets>
+					<MHC_MaintenanceRetention>.2</MHC_MaintenanceRetention>
+				</statOffsets>
+			</li>
+
+			<li>
+				<minSeverity>0.8</minSeverity>
+				<label>Peak</label>
+				<hungerRateFactor>0.95</hungerRateFactor>
+				<statOffsets>
+					<MHC_MaintenanceRetention>.3</MHC_MaintenanceRetention>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>ATR_SpacerSynthesisTechniques</defName>
+		<label>Spacer synthesis techniques</label>
+		<tab>ATR_MechResearch</tab>
+		<description>Many materials used by spacer societies are difficult to reverse engineer due to transformative synthesis processes. This research will allow us to gain insight into the production of spacer materials which use ingredients that are altered molecularly during the production process; such as the complete fusion of plasteel fibres into the chemically polymerized strands that make synthread.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+            <li>ATR_AutonomousIndustrialization</li>
+        </prerequisites>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>0.80</researchViewY>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="MasterOfGrey.MUFFReforgedATR">
+		<defName>ATR_MultiUtilityMimetics</defName>
+		<label>Multi-utility mimetics</label>
+		<tab>ATR_MechResearch</tab>
+		<description>Biomimetics incorporating advanced synthesis technologies allow for those determined, or perhaps insane, enough to leave spacer society for a rimworld to have access to certain luxuries of home.</description>
+		<baseCost>1400</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>ATR_SpacerSynthesisTechniques</li>
+			<li>ATR_MilitaryBiomimetics</li>
+		</prerequisites>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>0.80</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="MasterOfGrey.ExtraFramesATR">
+		<defName>ATR_AdvancedIndustrialFrames</defName>
+		<label>Advanced industrial frames</label>
+		<tab>ATR_MechResearch</tab>
+		<description>Advanced societies demand enduring performance from their mindless industrial servants. No weakness can be demonstrated in front of potential investors.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>ATR_AdvancedMechanicalFrameworks</li>
+			<li>ATR_IndustrialUtilityFrameworks</li>
+			<li>ATR_SpacerSynthesisTechniques</li>
+		</prerequisites>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>1.80</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ATR_MechaniteHandling</defName>
+		<label>Mechanite handling</label>
+		<tab>ATR_MechResearch</tab>
+		<description>Discovery of methods to prepare, sustain, and harvest mechanoid corpses for traces of mechanites unlocks access to things which ordinarily require the technologies and industrial capacity of Glittertech worlds.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+			<li>Machining</li>
+		</prerequisites>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>1.40</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ATR_MechaniteRepurposing</defName>
+		<label>Mechanite repurposing</label>
+		<tab>ATR_MechResearch</tab>
+		<description>Unlock techniques to exploit the responsive programming of mechanoid mechanites and coerce them into becoming specialized mechanites with industrial uses.\n\nThis unlocks the production of many high-grade mechanical products, as well as Luciferium and Hyperweave, though the process is far from simple.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+            <li>DrugProduction</li>
+			<li>ATR_SpacerSynthesisTechniques</li>
+			<li>ATR_MechaniteHandling</li>
+        </prerequisites>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>1.40</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+</Defs>

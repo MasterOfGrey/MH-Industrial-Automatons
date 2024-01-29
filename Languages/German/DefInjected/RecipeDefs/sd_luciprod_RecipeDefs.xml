@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <sd_luciprod_extract_oil_pod.label>Roboteröl extrahieren</sd_luciprod_extract_oil_pod.label>
+  <sd_luciprod_extract_oil_pod.description>extrahiert Roboteröl aus der Kammer. Ertrag: 1</sd_luciprod_extract_oil_pod.description>
+  <sd_luciprod_extract_oil_pod.jobString>extrahiert</sd_luciprod_extract_oil_pod.jobString>
+  <sd_luciprod_prepare_mech.label>Roboterkörper vorbereiten</sd_luciprod_prepare_mech.label>
+  <sd_luciprod_prepare_mech.description>Bereitet den abgeschalteten Roboter für die Stasiskammer vor. Braucht ein Roboter und ergibt einen vorbereiteten Roboterköroer</sd_luciprod_prepare_mech.description>
+  <sd_luciprod_prepare_mech.jobString>bereitet Roboter vor</sd_luciprod_prepare_mech.jobString>
+  <sd_luciprod_make_luci.label>Luciferium herstellen</sd_luciprod_make_luci.label>
+  <sd_luciprod_make_luci.description>Hestellung von 5 Luciferiumpillen aus 10 Neutroamin und 10 unfertigen Luciferiumschalen.</sd_luciprod_make_luci.description>
+  <sd_luciprod_make_luci.jobString>Luciferium herstellen</sd_luciprod_make_luci.jobString>
+  <sd_luciprod_disassemble_prepcorpse.label>vorbereiteten Roboterkörper auseinander bauen</sd_luciprod_disassemble_prepcorpse.label>
+  <sd_luciprod_disassemble_prepcorpse.description>Zerlegt vorbereiteten Roboterkörper in Einzelteile.</sd_luciprod_disassemble_prepcorpse.description>
+  <sd_luciprod_disassemble_prepcorpse.jobString>vorbereiteten Roboterkörper auseinander bauen</sd_luciprod_disassemble_prepcorpse.jobString>
+</LanguageData>

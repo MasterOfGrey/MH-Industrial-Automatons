@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Speedy Drone Legs -->
+
+    <HediffDef ParentName="ATR_AddedBodyPartIndustrialBase">
+        <defName>ATR_ContinuousTreadLeg</defName>
+        <label>Continuous tread leg</label>
+        <description>A leg built with a continuous track of treads driven by multiple small wheels, instead of a foot. It is ugly, vulnerable in combat, and slightly increases power requirements, as well as making it difficult to hold a stable position for more precise tasks, but it provides a significant movement speed bonus. Ideal for units that don't care about the drawbacks.</description>
+        <descriptionHyperlinks><ThingDef>ATR_ContinuousTreadLeg</ThingDef></descriptionHyperlinks>
+        <addedPartProps>
+            <solid>true</solid>
+            <partEfficiency>1.1</partEfficiency>
+            <betterThanNatural>true</betterThanNatural>
+        </addedPartProps>
+        <stages>
+			<li>
+				<statOffsets>
+					<MoveSpeed>.8</MoveSpeed>
+					<PawnBeauty>-0.1</PawnBeauty>
+					<ShootingAccuracyPawn>-1</ShootingAccuracyPawn>
+				</statOffsets>
+                <statFactors>
+					<ButcheryFleshEfficiency>0.85</ButcheryFleshEfficiency>
+					<CookSpeed>0.85</CookSpeed>
+					<DrugCookingSpeed>0.85</DrugCookingSpeed>
+					<MedicalTendQualityOffset>0.85</MedicalTendQualityOffset>
+					<SurgerySuccessChanceFactor>0.85</SurgerySuccessChanceFactor>
+					<ResearchSpeed>0.85</ResearchSpeed>
+                    <IncomingDamageFactor>1.1</IncomingDamageFactor>
+                </statFactors>
+				<hungerRateFactor>1.02</hungerRateFactor>
+			</li>
+		</stages>
+        <spawnThingOnRemoved>ATR_ContinuousTreadLeg</spawnThingOnRemoved>
+    </HediffDef>
+
+    <ThingDef ParentName="ATR_BodyPartIndustrialBase">
+        <defName>ATR_ContinuousTreadLeg</defName>
+        <label>Continuous tread leg</label>
+        <description>A leg built with a continuous track of treads driven by multiple small wheels, instead of a foot. It is ugly, vulnerable in combat, and slightly increases power requirements, as well as making it difficult to hold a stable position for more precise tasks, but it provides a significant movement speed bonus. Ideal for units that don't care about the drawbacks.</description>
+        <costList>
+            <Steel>60</Steel>
+            <ComponentIndustrial>10</ComponentIndustrial>
+        </costList>
+        <recipeMaker>
+	    	<researchPrerequisite>ATR_AutonomousIndustrialization</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <RecipeDef ParentName="ATR_SurgeryMechanicalIndustrial">
+		<defName>ATR_Install_ContinuousTreadLeg</defName>
+		<label>Install continuous tread leg</label>
+        <description>A leg built with a continuous track of treads driven by multiple small wheels, instead of a foot. It is ugly, vulnerable in combat, and slightly increases power requirements, as well as making it difficult to hold a stable position for more precise tasks, but it provides a significant movement speed bonus. Ideal for units that don't care about the drawbacks.</description>
+		<jobString>Installing high power leg.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_ContinuousTreadLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ATR_ContinuousTreadLeg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ATR_MechanicalLeg</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ATR_ContinuousTreadLeg</addsHediff>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--Automaton industrialization-->
+  <ATR_AutonomousIndustrialization.label>Промышленная автоматизация</ATR_AutonomousIndustrialization.label>
+  <!--Urbworld adoption of Tier one androids demanded that there be enhancements if they were to pose as more than novelties and achieve economies of scale. These designs for enhancements allow the tier one androids to achieve a baseline value on any world still dependent upon normal resource acquisition processes like mining and growing crops.-->
+  <ATR_AutonomousIndustrialization.description>Внедрение андроидов первого уровня в урбанистический мир потребовало внесения усовершенствований, а так же обеспечить экономию за счет масштаба эффективности, чтобы они были нечтыми большим, чем новинкой. Эти проекты улучшений позволяют андроидам первого уровня достигать базовой ценности в любом мире, всё ещё зависящем от обычных процессов получения ресурсов, таких как добыча полезных ископаемых и выращивание сельскохозяйственных культур.</ATR_AutonomousIndustrialization.description>
+
+  <!--Industrial utility frameworks-->
+  <ATR_IndustrialUtilityFrameworks.label>Промышленные каркасы</ATR_IndustrialUtilityFrameworks.label>
+  <!--The specialization of frameworks follows the same trend from novelty to economy as the utilization of the T1's expanded. These allow basic drones to match or exceed the performance of a regular worker without the difficulties of biological needs, or more advanced machines to be shackled to similar purpose...-->
+  <ATR_IndustrialUtilityFrameworks.description>Специализация каркасов следует той же тенденции от новизны к экономии, что и расширение использования T1. Это позволяет базовым дронам соответствовать производительности обычного работника или превосходить его без трудностей, связанных с биологическими потребностями. Или использовать каркасы в более совершенных машинах для аналогичной цели...</ATR_IndustrialUtilityFrameworks.description>
+
+  <!--Military frameworks-->
+  <ATR_MilitaryFrameworks.label>Военные каркасы</ATR_MilitaryFrameworks.label>
+  <!--Application of advanced ingredients, such as luciferium, to otherwise simple combat-improving framework enhancements allows for truly superior outcomes to be achieved in military applications.-->
+  <ATR_MilitaryFrameworks.description>Применение передовых ингредиентов, таких как люциферий, для боевых усовершенствований каркаса, позволяет достигать действительно превосходных результатов в военном применении.</ATR_MilitaryFrameworks.description>
+
+</LanguageData>

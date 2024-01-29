@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>ATR_AutonomousIndustrialization</defName>
+		<label>Automaton industrialization</label>
+		<tab>ATR_MechResearch</tab>
+		<description>Urbworld adoption of Tier one androids demanded that there be enhancements if they were to pose as more than novelties and achieve economies of scale. These designs for enhancements allow the tier one androids to achieve a baseline value on any world still dependent upon normal resource acquisition processes like mining and growing crops.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+            <li>ATB_UtilityBiomimetics</li>
+			<li>ATR_T1Androids</li>
+        </prerequisites>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>0.80</researchViewY>
+	</ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>ATR_IndustrialUtilityFrameworks</defName>
+        <label>Industrial utility frameworks</label>
+        <tab>ATR_MechResearch</tab>
+        <description>The specialization of frameworks follows the same trend from novelty to economy as the utilization of the T1's expanded. These allow basic drones to match or exceed the performance of a regular worker without the difficulties of biological needs, or more advanced machines to be shackled to similar purpose...</description>
+        <baseCost>1200</baseCost>
+        <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ATR_MechanicalFrameworks</li>
+			<li>ATR_AutonomousIndustrialization</li>
+		</prerequisites>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>1.80</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>ATR_MilitaryFrameworks</defName>
+        <label>Military frameworks</label>
+        <tab>ATR_MechResearch</tab>
+        <description>Application of advanced ingredients, such as luciferium, to otherwise simple combat-improving framework enhancements allows for truly superior outcomes to be achieved in military applications.</description>
+        <baseCost>1200</baseCost>
+        <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ATR_MechanicalFrameworks</li>
+			<li>ATR_MechanicalStimulators</li>
+		</prerequisites>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>2.55</researchViewY>
+    </ResearchProjectDef>
+
+</Defs>
