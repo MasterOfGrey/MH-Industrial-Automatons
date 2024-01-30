@@ -6,6 +6,29 @@
 		<operations>
 		<!-- ALL PARTS - JUST FOR TECH TREE -->
 		<!-- Research Project Changes (Just the Tech Tree itself.) -->
+
+			<!-- ATR_MechaniteAssistedRecovery
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechaniteAssistedRecovery"]/researchViewX</xpath>
+				<value><researchViewX>3.00</researchViewX></value></li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechaniteAssistedRecovery"]/researchViewY</xpath>
+				<value><researchViewY>3.35</researchViewY></value></li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechaniteAssistedRecovery"]/prerequisites</xpath>
+				<value><prerequisites><li>ATR_MechanicalStandardization</li></prerequisites></value></li> -->
+			<!-- ATR_RepairOptimization
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName = "ATR_RepairOptimization"]/researchViewX</xpath>
+				<value><researchViewX>7.00</researchViewX></value></li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName = "ATR_RepairOptimization"]/researchViewY</xpath>
+				<value><researchViewY>3.35</researchViewY></value></li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName = "ATR_RepairOptimization"]/label</xpath>
+				<value><label>Mechanite repair optimization</label></value></li> -->
+
+
 			<!-- ATR_T1Androids -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_T1Androids"]/researchViewX</xpath>
@@ -60,16 +83,7 @@
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechanicalFrameworks"]/prerequisites</xpath>
 				<value><prerequisites><li>ATR_MechanicalStandardization</li></prerequisites></value></li>
 			
-			<!-- ATR_MechaniteAssistedRecovery -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechaniteAssistedRecovery"]/researchViewX</xpath>
-				<value><researchViewX>3.00</researchViewX></value></li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechaniteAssistedRecovery"]/researchViewY</xpath>
-				<value><researchViewY>3.35</researchViewY></value></li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechaniteAssistedRecovery"]/prerequisites</xpath>
-				<value><prerequisites><li>ATR_MechanicalStandardization</li></prerequisites></value></li>
+
 			<!-- ATR_MechanicalStimulators -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechanicalStimulators"]/researchViewX</xpath>
@@ -93,7 +107,7 @@
 				<value><researchViewY>0.00</researchViewY></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATB_MilitaryBiomimetics"]/prerequisites</xpath>
-				<value><prerequisites><li>ATR_UtilityBiomimetics</li><li>ATR_SpacerSynthesisTechniques</li></prerequisites></value></li>
+				<value><prerequisites><li>ATB_UtilityBiomimetics</li><li>ATR_SpacerSynthesisTechniques</li></prerequisites></value></li>
 			
 			<!-- ATR_MechanicalOptimization -->
 			<li Class="PatchOperationReplace">
@@ -109,16 +123,6 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_T2Androids"]/researchViewY</xpath>
 				<value><researchViewY>3.70</researchViewY></value></li>
-			<!-- ATR_RepairOptimization -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ResearchProjectDef[defName = "ATR_RepairOptimization"]/researchViewX</xpath>
-				<value><researchViewX>7.00</researchViewX></value></li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ResearchProjectDef[defName = "ATR_RepairOptimization"]/researchViewY</xpath>
-				<value><researchViewY>3.35</researchViewY></value></li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ResearchProjectDef[defName = "ATR_RepairOptimization"]/label</xpath>
-				<value><label>Mechanite repair optimization</label></value></li>
 			<!-- ATR_AdvancedMechParts -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_AdvancedMechParts"]/researchViewX</xpath>
@@ -149,9 +153,9 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_T3Androids"]/researchViewY</xpath>
 				<value><researchViewY>3.705</researchViewY></value></li>
-			<li Class="PatchOperationReplace">
+			<!-- <li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_T3Androids"]/prerequisites</xpath>
-				<value><prerequisites><li>ATR_T2Androids</li><li>ATR_CommunicationOptimization</li></prerequisites></value></li>
+				<value><prerequisites><li>ATR_T2Androids</li><li>ATR_CommunicationOptimization</li></prerequisites></value></li> -->
 			<!-- ATR_T4Androids -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_T4Androids"]/researchViewX</xpath>
@@ -233,44 +237,60 @@
 			
 		<!-- MH CORE ONLY -->
 		<!-- Unlock Changes (Because oh my god.) -->
-			<!-- MHC_ChargingPodBase -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "MHC_ChargingPodBase"]/researchPrerequisites</xpath>
-				<value><researchPrerequisite>ATR_MechanicalInsight</researchPrerequisite></value></li>
+			<!-- MHC_ChargingPod -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MHC_ChargingPod"]</xpath>
+				<value><recipeMaker><researchPrerequisite>ATR_MechanicalInsight</researchPrerequisite></recipeMaker></value></li>
 			<!-- MHC_BedsideChargerFacility -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "MHC_BedsideChargerFacility"]/researchPrerequisites</xpath>
-				<value><researchPrerequisite>ATR_MechanicalStandardization</researchPrerequisite></value></li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MHC_BedsideChargerFacility"]</xpath>
+				<value><recipeMaker><researchPrerequisite>ATR_MechanicalStandardization</researchPrerequisite></recipeMaker></value></li>
 
 		<!-- Repair Item Def Changes (Because oh my god.) -->
-			<!-- MHC_RepairItemBase -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "MHC_RepairItemBase"]/recipeMaker</xpath>
-				<value><recipeMaker>
-					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-					<workSkill>Crafting</workSkill>
-					<effectWorking>Smelt</effectWorking>
-					<soundWorking>Recipe_Smelt</soundWorking>
-					<recipeUsers>
+			<!-- MHC_PartPack -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MHC_PartPack"]/recipeMaker</xpath>
+				<value><recipeUsers>
 						<li>ATR_MechPartWorkbench</li>
 						<li>TableMachining</li>
-					</recipeUsers>
-					<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
-				</recipeMaker></value></li>
-			<!-- MHC_PartPack -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "MHC_PartPack"]/recipeMaker/researchPrerequisite</xpath>
-				<value><researchPrerequisite>ATR_MechanicalStandardization</researchPrerequisite></value></li>
-			<!-- MHC_RepairStimBase -->
+					</recipeUsers></value></li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "MHC_RepairStimBase"]/recipeMaker</xpath>
-				<value><recipeMaker>
-					<bulkRecipeCount>4</bulkRecipeCount>
-				</recipeMaker></value></li>
+				<xpath>Defs/ThingDef[defName = "MHC_PartPack"]/recipeMaker</xpath>
+				<value><researchPrerequisite>ATR_MechanicalStandardization</researchPrerequisite></value></li>
 			<!-- MHC_RepairStimSimple -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MHC_RepairStimSimple"]/recipeMaker</xpath>
+				<value><bulkRecipeCount>4</bulkRecipeCount></value></li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MHC_RepairStimSimple"]/recipeMaker</xpath>
+				<value><recipeUsers>
+						<li>ATR_MechPartWorkbench</li>
+						<li>TableMachining</li>
+					</recipeUsers></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "MHC_RepairStimSimple"]/recipeMaker/researchPrerequisite</xpath>
 				<value><researchPrerequisite>Machining</researchPrerequisite></value></li>
+			<!-- MHC_RepairStimIntermediate -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MHC_RepairStimIntermediate"]/recipeMaker</xpath>
+				<value><bulkRecipeCount>4</bulkRecipeCount></value></li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MHC_RepairStimIntermediate"]/recipeMaker</xpath>
+				<value><recipeUsers>
+						<li>ATR_MechPartWorkbench</li>
+						<li>TableMachining</li>
+					</recipeUsers></value></li>
+			<!-- MHC_RepairStimAdvanced -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MHC_RepairStimAdvanced"]/recipeMaker</xpath>
+				<value><bulkRecipeCount>4</bulkRecipeCount></value></li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MHC_RepairStimAdvanced"]/recipeMaker</xpath>
+				<value><recipeUsers>
+						<li>ATR_MechPartWorkbench</li>
+						<li>TableMachining</li>
+					</recipeUsers></value></li>
+
 
 
 		<!-- ANDROID TIERS ONLY -->
