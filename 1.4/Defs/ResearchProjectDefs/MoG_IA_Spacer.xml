@@ -12,7 +12,7 @@
             <li>ATR_AutonomousIndustrialization</li>
         </prerequisites>
 		<researchViewX>6.00</researchViewX>
-		<researchViewY>0.80</researchViewY>
+		<researchViewY>0.70</researchViewY>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
@@ -45,8 +45,8 @@
 			<li>ATR_IndustrialUtilityFrameworks</li>
 			<li>ATR_SpacerSynthesisTechniques</li>
 		</prerequisites>
-		<researchViewX>9.00</researchViewX>
-		<researchViewY>1.80</researchViewY>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -61,7 +61,7 @@
 			<li>Machining</li>
 		</prerequisites>
 		<researchViewX>6.00</researchViewX>
-		<researchViewY>1.40</researchViewY>
+		<researchViewY>1.50</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
@@ -80,8 +80,8 @@
 			<li>ATR_SpacerSynthesisTechniques</li>
 			<li>ATR_MechaniteHandling</li>
         </prerequisites>
-		<researchViewX>8.00</researchViewX>
-		<researchViewY>1.40</researchViewY>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>1.05</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
