@@ -13,7 +13,7 @@
 				<value><researchViewX>0.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechanicalInsight"]/researchViewY</xpath>
-				<value><researchViewY>3.45</researchViewY></value></li>
+				<value><researchViewY>4.10</researchViewY></value></li>
 
 
 			<!-- ATR_MechanicalStandardization -->
@@ -22,7 +22,7 @@
 				<value><researchViewX>2.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechanicalStandardization"]/researchViewY</xpath>
-				<value><researchViewY>3.45</researchViewY></value></li>
+				<value><researchViewY>4.10</researchViewY></value></li>
 			<!-- ATR_MassCharging
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_MassCharging"]/researchViewX</xpath>
@@ -40,7 +40,7 @@
 				<value><researchViewX>3.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechanicalFrameworks"]/researchViewY</xpath>
-				<value><researchViewY>1.85</researchViewY></value></li>
+				<value><researchViewY>2.40</researchViewY></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechanicalFrameworks"]/label</xpath>
 				<value><label>Basic framework enhancements</label></value></li>
@@ -53,14 +53,14 @@
 				<value><researchViewX>3.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_InterchangeableParts"]/researchViewY</xpath>
-				<value><researchViewY>2.50</researchViewY></value></li>
+				<value><researchViewY>3.05</researchViewY></value></li>
 			<!-- ATR_MechanicalStimulators ("Stimulants" in-game) -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechanicalStimulators"]/researchViewX</xpath>
 				<value><researchViewX>4.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechanicalStimulators"]/researchViewY</xpath>
-				<value><researchViewY>2.25</researchViewY></value></li>
+				<value><researchViewY>2.80</researchViewY></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechanicalStimulators"]/techLevel</xpath>
 				<value><techLevel>Industrial</techLevel></value></li>
@@ -71,7 +71,7 @@
 				<value><researchViewX>6.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechanicalOptimization"]/researchViewY</xpath>
-				<value><researchViewY>3.40</researchViewY></value></li>
+				<value><researchViewY>4.10</researchViewY></value></li>
 
 			<!-- ATR_AdvancedMechanicalFrameworks -->
 			<li Class="PatchOperationReplace">
@@ -79,7 +79,7 @@
 				<value><researchViewX>7.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_AdvancedMechanicalFrameworks"]/researchViewY</xpath>
-				<value><researchViewY>1.85</researchViewY></value></li>
+				<value><researchViewY>2.40</researchViewY></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_AdvancedMechanicalFrameworks"]/label</xpath>
 				<value><label>Advanced framework enhancements</label></value></li>
@@ -89,7 +89,7 @@
 				<value><researchViewX>7.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_AdvancedMechParts"]/researchViewY</xpath>
-				<value><researchViewY>2.50</researchViewY></value></li>
+				<value><researchViewY>3.05</researchViewY></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_AdvancedMechParts"]/label</xpath>
 				<value><label>Enhanced parts</label></value></li>
@@ -102,7 +102,7 @@
 				<value><researchViewX>7.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_CoreAssistants"]/researchViewY</xpath>
-				<value><researchViewY>3.50</researchViewY></value></li>
+				<value><researchViewY>4.10</researchViewY></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_CoreAssistants"]/prerequisites</xpath>
 				<value><prerequisites><li>ATR_MechanicalOptimization</li></prerequisites></value></li>
@@ -110,10 +110,10 @@
 			<!-- ATR_MechaniteAssistedRecovery -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechaniteAssistedRecovery"]/researchViewX</xpath>
-				<value><researchViewX>8.00</researchViewX></value></li>
+				<value><researchViewX>6.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechaniteAssistedRecovery"]/researchViewY</xpath>
-				<value><researchViewY>1.50</researchViewY></value></li>
+				<value><researchViewY>0.35</researchViewY></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_MechaniteAssistedRecovery"]/prerequisites</xpath>
 				<value><prerequisites><li>ATR_MechaniteHandling</li></prerequisites></value></li>
@@ -135,14 +135,14 @@
 				<value><researchViewX>1.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATB_UtilityBiomimetics"]/researchViewY</xpath>
-				<value><researchViewY>0.00</researchViewY></value></li>
+				<value><researchViewY>1.15</researchViewY></value></li>
 			<!-- ATB_MilitaryBiomimetics -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATB_MilitaryBiomimetics"]/researchViewX</xpath>
 				<value><researchViewX>7.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATB_MilitaryBiomimetics"]/researchViewY</xpath>
-				<value><researchViewY>0.00</researchViewY></value></li>
+				<value><researchViewY>1.15</researchViewY></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATB_MilitaryBiomimetics"]/prerequisites</xpath>
 				<value><prerequisites><li>ATB_UtilityBiomimetics</li><li>ATR_SpacerSynthesisTechniques</li></prerequisites></value></li>
@@ -154,14 +154,14 @@
 				<value><researchViewX>1.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_T1Androids"]/researchViewY</xpath>
-				<value><researchViewY>3.00</researchViewY></value></li>
+				<value><researchViewY>3.55</researchViewY></value></li>
 			<!-- ATR_T2Androids -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_T2Androids"]/researchViewX</xpath>
 				<value><researchViewX>4.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_T2Androids"]/researchViewY</xpath>
-				<value><researchViewY>3.00</researchViewY></value></li>
+				<value><researchViewY>3.55</researchViewY></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_T2Androids"]/prerequisites</xpath>
 				<value><prerequisites><li>ATR_T1Androids</li><li>ATR_InterchangeableParts</li></prerequisites></value></li>
@@ -171,7 +171,7 @@
 				<value><researchViewX>7.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_T3Androids"]/researchViewY</xpath>
-				<value><researchViewY>3.00</researchViewY></value></li>
+				<value><researchViewY>3.55</researchViewY></value></li>
 			<!-- <li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_T3Androids"]/prerequisites</xpath>
 				<value><prerequisites><li>ATR_T2Androids</li><li>ATR_CommunicationOptimization</li></prerequisites></value></li> -->
@@ -181,7 +181,7 @@
 				<value><researchViewX>8.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATR_T4Androids"]/researchViewY</xpath>
-				<value><researchViewY>3.00</researchViewY></value></li>
+				<value><researchViewY>3.55</researchViewY></value></li>
 
 			<!-- These are now in their own SkyMind tab -->
 			<!-- ATR_StandardizedCommunications
@@ -268,9 +268,6 @@
 			<!-- MHC_RepairStimSimple -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "MHC_RepairStimSimple"]/recipeMaker</xpath>
-				<value><bulkRecipeCount>4</bulkRecipeCount></value></li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "MHC_RepairStimSimple"]/recipeMaker</xpath>
 				<value><recipeUsers>
 						<li>ATR_MechPartWorkbench</li>
 						<li>TableMachining</li>
@@ -281,17 +278,11 @@
 			<!-- MHC_RepairStimIntermediate -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "MHC_RepairStimIntermediate"]/recipeMaker</xpath>
-				<value><bulkRecipeCount>4</bulkRecipeCount></value></li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "MHC_RepairStimIntermediate"]/recipeMaker</xpath>
 				<value><recipeUsers>
 						<li>ATR_MechPartWorkbench</li>
 						<li>TableMachining</li>
 					</recipeUsers></value></li>
 			<!-- MHC_RepairStimAdvanced -->
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "MHC_RepairStimAdvanced"]/recipeMaker</xpath>
-				<value><bulkRecipeCount>4</bulkRecipeCount></value></li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "MHC_RepairStimAdvanced"]/recipeMaker</xpath>
 				<value><recipeUsers>

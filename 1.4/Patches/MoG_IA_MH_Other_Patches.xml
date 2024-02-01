@@ -16,21 +16,21 @@
 				<value><researchViewX>1.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATM_M1Warriors"]/researchViewY</xpath>
-				<value><researchViewY>4.10</researchViewY></value></li>
+				<value><researchViewY>4.65</researchViewY></value></li>
 			<!-- ATM_M2Bishops -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATM_M2Bishops"]/researchViewX</xpath>
 				<value><researchViewX>4.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATM_M2Bishops"]/researchViewY</xpath>
-				<value><researchViewY>4.10</researchViewY></value></li>
+				<value><researchViewY>4.65</researchViewY></value></li>
 			<!-- ATM_M3Paladins -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATM_M3Paladins"]/researchViewX</xpath>
 				<value><researchViewX>7.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "ATM_M3Paladins"]/researchViewY</xpath>
-				<value><researchViewY>4.10</researchViewY></value></li>
+				<value><researchViewY>4.65</researchViewY></value></li>
 			</operations>
 		</match>
 	</Operation>
@@ -48,14 +48,14 @@
 				<value><researchViewX>1.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "MHUD_SimpleDrones"]/researchViewY</xpath>
-				<value><researchViewY>4.65</researchViewY></value></li>
+				<value><researchViewY>5.15</researchViewY></value></li>
 			<!-- MHUD_ComplexDrones -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "MHUD_ComplexDrones"]/researchViewX</xpath>
 				<value><researchViewX>7.00</researchViewX></value></li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName = "MHUD_ComplexDrones"]/researchViewY</xpath>
-				<value><researchViewY>4.65</researchViewY></value></li>
+				<value><researchViewY>5.15</researchViewY></value></li>
 			</operations>
 		</match>
 	</Operation>

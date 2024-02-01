@@ -13,7 +13,7 @@
 			<li>ATR_T1Androids</li>
         </prerequisites>
 		<researchViewX>2.00</researchViewX>
-		<researchViewY>0.70</researchViewY>
+		<researchViewY>1.50</researchViewY>
 	</ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -28,7 +28,7 @@
 			<li>ATR_AutonomousIndustrialization</li>
 		</prerequisites>
 		<researchViewX>5.00</researchViewX>
-		<researchViewY>1.45</researchViewY>
+		<researchViewY>2.00</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -43,7 +43,26 @@
 			<li>ATR_MechanicalStimulators</li>
 		</prerequisites>
 		<researchViewX>5.00</researchViewX>
-		<researchViewY>2.20</researchViewY>
+		<researchViewY>2.75</researchViewY>
     </ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ATR_MechaniteHandling</defName>
+		<label>Mechanite handling</label>
+		<tab>ATR_MechResearch</tab>
+		<description>Discovery of methods to prepare, sustain, and harvest mechanoid corpses for traces of mechanites unlocks access to things which ordinarily require the technologies and industrial capacity of Glittertech worlds.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+			<li>Machining</li>
+		</prerequisites>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
 
 </Defs>

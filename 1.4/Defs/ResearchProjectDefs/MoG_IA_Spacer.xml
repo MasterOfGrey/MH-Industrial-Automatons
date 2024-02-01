@@ -12,13 +12,13 @@
             <li>ATR_AutonomousIndustrialization</li>
         </prerequisites>
 		<researchViewX>6.00</researchViewX>
-		<researchViewY>0.70</researchViewY>
+		<researchViewY>1.50</researchViewY>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef MayRequire="MasterOfGrey.MUFFReforgedATR">
+	<ResearchProjectDef MayRequire="MasterOfGrey.MUFFReforgedMH">
 		<defName>ATR_MultiUtilityMimetics</defName>
 		<label>Multi-utility mimetics</label>
 		<tab>ATR_MechResearch</tab>
@@ -27,13 +27,13 @@
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>ATR_SpacerSynthesisTechniques</li>
-			<li>ATR_MilitaryBiomimetics</li>
+			<li>ATB_MilitaryBiomimetics</li>
 		</prerequisites>
 		<researchViewX>8.00</researchViewX>
-		<researchViewY>0.80</researchViewY>
+		<researchViewY>1.50</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef MayRequire="MasterOfGrey.ExtraFramesATR">
+	<ResearchProjectDef MayRequire="MasterOfGrey.ExtraFramesMH">
 		<defName>ATR_AdvancedIndustrialFrames</defName>
 		<label>Advanced industrial frames</label>
 		<tab>ATR_MechResearch</tab>
@@ -46,26 +46,7 @@
 			<li>ATR_SpacerSynthesisTechniques</li>
 		</prerequisites>
 		<researchViewX>8.00</researchViewX>
-		<researchViewY>0.70</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>ATR_MechaniteHandling</defName>
-		<label>Mechanite handling</label>
-		<tab>ATR_MechResearch</tab>
-		<description>Discovery of methods to prepare, sustain, and harvest mechanoid corpses for traces of mechanites unlocks access to things which ordinarily require the technologies and industrial capacity of Glittertech worlds.</description>
-		<baseCost>3000</baseCost>
-		<techLevel>Spacer</techLevel>
-		<prerequisites>
-			<li>MicroelectronicsBasics</li>
-			<li>Machining</li>
-		</prerequisites>
-		<researchViewX>6.00</researchViewX>
-		<researchViewY>1.50</researchViewY>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<requiredResearchFacilities>
-			<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
+		<researchViewY>2.00</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -81,7 +62,7 @@
 			<li>ATR_MechaniteHandling</li>
         </prerequisites>
 		<researchViewX>7.00</researchViewX>
-		<researchViewY>1.05</researchViewY>
+		<researchViewY>0.00</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>

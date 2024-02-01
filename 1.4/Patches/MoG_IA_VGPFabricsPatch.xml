@@ -27,7 +27,7 @@
 					<value><researchViewX>7.00</researchViewX></value></li>
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ResearchProjectDef[defName = "VG_ClothII"]/researchViewY</xpath>
-					<value><researchViewY>0.50</researchViewY></value></li>
+					<value><researchViewY>0.65</researchViewY></value></li>
 				
 				<!-- VG_ClothI (This is superfluous with ATR_SpacerSynthesisTechniques) -->
 				<li Class="PatchOperationRemove">
