@@ -54,7 +54,7 @@
 		<defName>ATR_MechaniteOil</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>Mechanite oil</label>
-		<description>Synthetic chemical compound designed to reduce chassis susceptibility to adverse temperature - positive and negative. Not safe for organic consumption.</description>
+		<description>Boosted by the blood of mechanoids which contains trace amounts of small mechanites, this has remarkable effects when applied to the systems of lesser machines; doing everything from resolving coolant loss and improving energy efficiency, to lowering maintenance loss and increasing overall mechanical resilience.</description>
 		<defaultLabelColor>(0.8,0.8,0.8)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<initialSeverity>1.0</initialSeverity>

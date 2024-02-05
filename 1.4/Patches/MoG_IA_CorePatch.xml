@@ -5,7 +5,7 @@
 		<xpath>*/RecipeDef[defName = "ButcherCorpseMechanoid"]</xpath>
 		<value>
 		<products>
-			<sd_luciprod_mechanite_oil>1</sd_luciprod_mechanite_oil>
+			<ATR_MechaniteOil>1</ATR_MechaniteOil>
 		</products>
 		</value>
 	</Operation>
