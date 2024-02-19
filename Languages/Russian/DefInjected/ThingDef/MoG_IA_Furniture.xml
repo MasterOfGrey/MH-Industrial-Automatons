@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Mech Product Refinement Table -->
+
+  <ATR_ProductRefinementTable.label>Стол обработки механических изделий</ATR_ProductRefinementTable.label>
+  <ATR_ProductRefinementTable.description>Верстак, на котором находится всё необходимое оборудование, для обработки различных механических изделий.</ATR_ProductRefinementTable.description>
+  <ATR_ProductRefinementTable_Blueprint.label>Стол обработки механических изделий (проект)</ATR_ProductRefinementTable_Blueprint.label>
+  <ATR_ProductRefinementTable_Blueprint_Install.label>Стол обработки механических изделий (проект)</ATR_ProductRefinementTable_Blueprint_Install.label>
+  <ATR_ProductRefinementTable_Frame.label>Стол обработки механических изделий (в процессе сборки)</ATR_ProductRefinementTable_Frame.label>
+  <ATR_ProductRefinementTable_Frame.description>Верстак, на котором находится всё необходимое оборудование, для обработки различных механических изделий.</ATR_ProductRefinementTable_Frame.description>
+
+
+  <!-- Mechanoid Stasis Pod -->
+
+  <sd_luciprod_mechstasispod.label>Стазис-капсула для механоида</sd_luciprod_mechstasispod.label>
+  <sd_luciprod_mechstasispod.description>Капсула, предназначенная для поддержки механоида в рабочем состоянии и сбора механитного масла.</sd_luciprod_mechstasispod.description>
+  <sd_luciprod_mechstasispod_Blueprint.label>Стазис-капсула для механоида (проект)</sd_luciprod_mechstasispod_Blueprint.label>
+  <sd_luciprod_mechstasispod_Blueprint_Install.label>Стазис-капсула для механоида (проект)</sd_luciprod_mechstasispod_Blueprint_Install.label>
+  <sd_luciprod_mechstasispod_Frame.label>Стазис-капсула для механоида (в процессе сборки)</sd_luciprod_mechstasispod_Frame.label>
+  <sd_luciprod_mechstasispod_Frame.description>Капсула, предназначенная для поддержки механоида в рабочем состоянии и сбора механитного масла.</sd_luciprod_mechstasispod_Frame.description>
+
+
+  <!-- Scarlet Distillery -->
+
+  <sd_luciprod_distillery.label>Алый дистиллятор</sd_luciprod_distillery.label>
+  <sd_luciprod_distillery.description>Дистиллятор превратит 4 единицы алого инкубаторного масла в 5 партий сырого люциферия. Они используются для производства люциферия в химической лаборатории.</sd_luciprod_distillery.description>
+  <sd_luciprod_distillery_Blueprint.label>Алый дистиллятор (проект)</sd_luciprod_distillery_Blueprint.label>
+  <sd_luciprod_distillery_Blueprint_Install.label>Алый дистиллятор (проект)</sd_luciprod_distillery_Blueprint_Install.label>
+  <sd_luciprod_distillery_Frame.label>Алый дистиллятор (в процессе сборки)</sd_luciprod_distillery_Frame.label>
+  <sd_luciprod_distillery_Frame.description>Дистиллятор превратит 4 единицы алого инкубаторного масла в 5 партий сырого люциферия. Они используются для производства люциферия в химической лаборатории.</sd_luciprod_distillery_Frame.description>
+
+
+</LanguageData>

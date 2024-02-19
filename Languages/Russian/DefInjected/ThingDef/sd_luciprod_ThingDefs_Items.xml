@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- mech corpse -->
+
+  <sd_luciprod_prep_mech_corpse.label>подготовленный труп механоида</sd_luciprod_prep_mech_corpse.label>
+  <sd_luciprod_prep_mech_corpse.description>Труп механоида, подготовленный для стазис-капсулы, чтобы производить механитов для производства люциферия. Если нет необходимости, его можно разобрать.</sd_luciprod_prep_mech_corpse.description>
+
+
+</LanguageData>

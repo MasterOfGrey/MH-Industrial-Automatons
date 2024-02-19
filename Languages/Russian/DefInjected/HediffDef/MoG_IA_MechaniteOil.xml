@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- HediffMechanical Mechanite Oil -->
+
+  <ATR_MechaniteOil.label>Механитное масло</ATR_MechaniteOil.label>
+  <ATR_MechaniteOil.description>Усиленное кровью механоидов, содержит небольшое количество маленьких механитов, оно оказывает поразительное воздействие на системы малых механизмов: от решения проблемы потери хладогента и повышения энергоэффективности, до снижения потерь при техобслуживании, и повышения общей механической прочности.</ATR_MechaniteOil.description>
+  <ATR_MechaniteOil.stages.0.label>Незначительно</ATR_MechaniteOil.stages.0.label>
+  <ATR_MechaniteOil.stages.1.label>Лёгкое</ATR_MechaniteOil.stages.1.label>
+  <ATR_MechaniteOil.stages.2.label>Среднее</ATR_MechaniteOil.stages.2.label>
+  <ATR_MechaniteOil.stages.3.label>Пиковое</ATR_MechaniteOil.stages.3.label>
+
+
+</LanguageData>

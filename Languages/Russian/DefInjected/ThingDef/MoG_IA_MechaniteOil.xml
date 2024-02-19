@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Mechanite Oil -->
+
+  <ATR_MechaniteOil.label>Механитное масло</ATR_MechaniteOil.label>
+  <ATR_MechaniteOil.description>Это механоидная версия человеческой крови. В ней содержится незначительное количество мелких механитов, которые помогают поддерживать эти огромные машины изнутри.\n\nОно может иметь поразительный эффект при применении к системам меньших машин: от повышения энергоэффективности до снижения потерь при техобслуживании, и повышения общей механической прочности.</ATR_MechaniteOil.description>
+  <ATR_MechaniteOil.ingestible.ingestCommandString>Принять {0}</ATR_MechaniteOil.ingestible.ingestCommandString>
+  <ATR_MechaniteOil.ingestible.ingestReportString>Принимает {0}.</ATR_MechaniteOil.ingestible.ingestReportString>
+
+
+</LanguageData>
