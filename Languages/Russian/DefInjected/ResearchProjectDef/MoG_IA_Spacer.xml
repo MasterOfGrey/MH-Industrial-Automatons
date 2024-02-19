@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_SpacerSynthesisTechniques.label>Космические технологии синтеза</ATR_SpacerSynthesisTechniques.label>
+  <ATR_SpacerSynthesisTechniques.description>Многие материалы, используемые в космическом обществе, трудно поддаются реинжинирингу из-за трансформационных процессов синтеза. Это исследование, позволит нам получить представление о производстве прокладочных материалов, в которых используются ингредиенты, подвергающиеся молекулярным изменениям в процессе производства; например: полное слияние пласталевых волокон в химически полимеризованные нити, из которых изготавливается синткань.</ATR_SpacerSynthesisTechniques.description>
+
+  <ATR_MultiUtilityMimetics.label>Много-утилитарная миметики</ATR_MultiUtilityMimetics.label>
+  <ATR_MultiUtilityMimetics.description>Биомиметика, включающая в себя продвинутые технологии синтеза, позволяет тем, кто достаточно решителен или, возможно, безумен, чтобы покинуть космическое общество и отправиться в окраинный мир, получить доступ к некоторым предметам домашней роскоши.</ATR_MultiUtilityMimetics.description>
+
+  <ATR_AdvancedIndustrialFrames.label>Продвинутые индустриальные каркасы</ATR_AdvancedIndustrialFrames.label>
+  <ATR_AdvancedIndustrialFrames.description>Развитые общества, требуют от своих бездумных промышленных слуг долгой работы. Нельзя демонстрировать слабость перед потенциальными инвесторами.</ATR_AdvancedIndustrialFrames.description>
+
+  <ATR_MechaniteRepurposing.label>Механитная переработка</ATR_MechaniteRepurposing.label>
+  <ATR_MechaniteRepurposing.description>Разблокируйте техники, позволяющие использовать чуткое программирование механоидов и заставлять их становиться специализированными механитами, используемыми в промышленности.\n\nЭто позволяет производить множество высококачественных механических изделий, а также Люциферий и Гиперткань, хотя процесс этот далеко не прост.</ATR_MechaniteRepurposing.description>
+
+
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- distilling process -->
+  <sd_luciprod_txtcontainsrawluci>Содержит партию сырого люциферия</sd_luciprod_txtcontainsrawluci>
+  <sd_luciprod_txtcontainsoil>Содержит механитное масло</sd_luciprod_txtcontainsoil>
+  <sd_luciprod_txtdistilled>Дистиллированный</sd_luciprod_txtdistilled>
+  <sd_luciprod_txtdistillingprogress>Прогресс дистилляции</sd_luciprod_txtdistillingprogress>
+  <sd_luciprod_txtdistilleryoutofidealtemperature>Температура дистилляции не идеальна</sd_luciprod_txtdistilleryoutofidealtemperature>
+  <sd_luciprod_txttemperature>Температура</sd_luciprod_txttemperature>
+  <sd_luciprod_txtidealdistillingtemperature>Идеальная температура дистилляции</sd_luciprod_txtidealdistillingtemperature>
+  <sd_luciprod_txtbadtemperature>Неподходящая температура</sd_luciprod_txtbadtemperature>
+  <sd_luciprod_txtnomechaniteoil>Не содержит механитное масла</sd_luciprod_txtnomechaniteoil>
+
+</LanguageData>

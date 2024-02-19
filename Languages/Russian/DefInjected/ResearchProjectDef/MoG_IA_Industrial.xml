@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_AutonomousIndustrialization.label>Промышленная автоматизация</ATR_AutonomousIndustrialization.label>
+  <ATR_AutonomousIndustrialization.description>Внедрение андроидов первого уровня в городской мир, потребовало внесения усовершенствований, а так же обеспечить экономию за счет масштаба эффективности, чтобы они были чем-то большим, чем новинкой. Эти проекты улучшений позволяют андроидам первого уровня достигать базовой ценности в любом мире, всё ещё зависящем от обычных процессов получения ресурсов, таких как добыча полезных ископаемых и выращивание сельскохозяйственных культур.</ATR_AutonomousIndustrialization.description>
+
+  <ATR_IndustrialUtilityFrameworks.label>Промышленные каркасы</ATR_IndustrialUtilityFrameworks.label>
+  <ATR_IndustrialUtilityFrameworks.description>Специализация каркасов следует той же тенденции от новизны к экономии, что и расширение использования T1. Это позволяет базовым дронам соответствовать производительности обычного работника или превосходить его без трудностей, связанных с биологическими потребностями, или использовать каркасы в более совершенных машинах для аналогичной цели...</ATR_IndustrialUtilityFrameworks.description>
+
+  <ATR_MilitaryFrameworks.label>Военные каркасы</ATR_MilitaryFrameworks.label>
+  <ATR_MilitaryFrameworks.description>Применение продвинутых ингредиентов, таких как люциферий, для боевых улучшений каркаса, позволяет достигать действительно превосходных результатов в военном применении.</ATR_MilitaryFrameworks.description>
+
+  <ATR_MechaniteHandling.label>Механитная обработка</ATR_MechaniteHandling.label>
+  <ATR_MechaniteHandling.description>Открытие методов подготовки, поддержания и сбора трупов механоидов, для обнаружения следов механитов, открывает доступ к вещам, которые обычно требуют технологий и промышленного потенциала утопических миров.</ATR_MechaniteHandling.description>
+
+
+</LanguageData>

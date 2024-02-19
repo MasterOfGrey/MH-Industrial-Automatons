@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <sd_luciprod_takelucioutofdistillery.label>вынуть люциферий из дистиллятора</sd_luciprod_takelucioutofdistillery.label>
+  <sd_luciprod_takelucioutofdistillery.verb>вынуть люциферий</sd_luciprod_takelucioutofdistillery.verb>
+  <sd_luciprod_takelucioutofdistillery.gerund>вынимает люциферий из</sd_luciprod_takelucioutofdistillery.gerund>
+
+  <sd_luciprod_filldistillery.label>полный дистиллятор</sd_luciprod_filldistillery.label>
+  <sd_luciprod_filldistillery.verb>заполнен</sd_luciprod_filldistillery.verb>
+  <sd_luciprod_filldistillery.gerund>заполнение</sd_luciprod_filldistillery.gerund>
+
+  <sd_luciprod_dobillsmechpod.label>извлечь механитное масло</sd_luciprod_dobillsmechpod.label>
+  <sd_luciprod_dobillsmechpod.verb>извлечь механитное масло</sd_luciprod_dobillsmechpod.verb>
+  <sd_luciprod_dobillsmechpod.gerund>извлечь механитное масло в</sd_luciprod_dobillsmechpod.gerund>
+
+  <sd_luciprod_DoBillsMedicalMechanoidOperation.label>опирация на механоидах</sd_luciprod_DoBillsMedicalMechanoidOperation.label>
+  <sd_luciprod_DoBillsMedicalMechanoidOperation.verb>изменить</sd_luciprod_DoBillsMedicalMechanoidOperation.verb>
+  <sd_luciprod_DoBillsMedicalMechanoidOperation.gerund>изменение</sd_luciprod_DoBillsMedicalMechanoidOperation.gerund>
+
+
+</LanguageData>

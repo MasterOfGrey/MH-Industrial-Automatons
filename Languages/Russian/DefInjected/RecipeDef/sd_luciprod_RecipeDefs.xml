@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Prepare Mechanoid -->
+
+  <sd_luciprod_prepare_mech.label>подготовить механоида</sd_luciprod_prepare_mech.label>
+  <sd_luciprod_prepare_mech.description>Подготовьте труп механоида для использования в вашей стазис-капсуле. нужен: 1 труп сентипеды/жнеца. на выходе: 1 подготовленный труп</sd_luciprod_prepare_mech.description>
+  <sd_luciprod_prepare_mech.jobString>Подготовка.</sd_luciprod_prepare_mech.jobString>
+
+
+  <!-- Disassemble Prepared Mechanoid -->
+
+  <sd_luciprod_disassemble_prepcorpse.label>разобрать подготовленный труп механоида</sd_luciprod_disassemble_prepcorpse.label>
+  <sd_luciprod_disassemble_prepcorpse.description>Разборка подготовленного трупа механоида на составные части.</sd_luciprod_disassemble_prepcorpse.description>
+  <sd_luciprod_disassemble_prepcorpse.jobString>Разбирает механоида.</sd_luciprod_disassemble_prepcorpse.jobString>
+
+
+  <!-- Produce Luciferium -->
+
+  <sd_luciprod_make_luci.label>Произвести люциферий</sd_luciprod_make_luci.label>
+  <sd_luciprod_make_luci.description>Произвести 5 таблеток люциферия из 10 партий нейтроамина и 10 партий сырого люциферия.</sd_luciprod_make_luci.description>
+  <sd_luciprod_make_luci.jobString>Производит Люциферий.</sd_luciprod_make_luci.jobString>
+
+
+</LanguageData>

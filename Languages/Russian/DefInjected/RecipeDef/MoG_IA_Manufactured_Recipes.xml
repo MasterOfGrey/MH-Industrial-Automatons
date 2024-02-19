@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Make Synthread -->
+
+  <ATR_MakeSynthreadCloth.label>Плести синткань x10</ATR_MakeSynthreadCloth.label>
+  <ATR_MakeSynthreadCloth.description>Плетение синткани из полисинтетической нити.\n\nПолучится 10 ткани.</ATR_MakeSynthreadCloth.description>
+  <ATR_MakeSynthreadCloth.jobString>Плетёт синткани.</ATR_MakeSynthreadCloth.jobString>
+
+  <ATR_MakeSynthreadClothBulk.label>Плести синткань x40</ATR_MakeSynthreadClothBulk.label>
+  <ATR_MakeSynthreadClothBulk.description>Плетение синткани из полисинтетической нити.\n\nПолучится 40 ткани.</ATR_MakeSynthreadClothBulk.description>
+  <ATR_MakeSynthreadClothBulk.jobString>Плетёт большой объём синткани.</ATR_MakeSynthreadClothBulk.jobString>
+
+
+  <!-- Make Unfinished Hyperweave -->
+
+  <ATR_MakeUnfinishedHyperweaveCloth.label>Плести незаконченную гиперткань x15</ATR_MakeUnfinishedHyperweaveCloth.label>
+  <ATR_MakeUnfinishedHyperweaveCloth.description>Плетение незаконченной гиперткани, из тщательно отобранных материалов.\n\nПолучится 15 ткани.</ATR_MakeUnfinishedHyperweaveCloth.description>
+  <ATR_MakeUnfinishedHyperweaveCloth.jobString>Плетёт незаконченную гиперткань.</ATR_MakeUnfinishedHyperweaveCloth.jobString>
+
+  <ATR_MakeUnfinishedHyperweaveClothBulk.label>Плести незаконченную гиперткань x60</ATR_MakeUnfinishedHyperweaveClothBulk.label>
+  <ATR_MakeUnfinishedHyperweaveClothBulk.description>Плетение незаконченной гиперткани, из тщательно отобранных материалов.\n\nПолучится 60 ткани.</ATR_MakeUnfinishedHyperweaveClothBulk.description>
+  <ATR_MakeUnfinishedHyperweaveClothBulk.jobString>Плетёт большой объём незаконченной гиперткани.</ATR_MakeUnfinishedHyperweaveClothBulk.jobString>
+
+
+  <!-- Make Hyperweave -->
+
+  <ATR_MakeHyperweaveCloth.label>Завершить гиперткань x15</ATR_MakeHyperweaveCloth.label>
+  <ATR_MakeHyperweaveCloth.description>Создание гиперткани из незаконченной гиперткани.\n\nПолучится 15 ткани.</ATR_MakeHyperweaveCloth.description>
+  <ATR_MakeHyperweaveCloth.jobString>Завершение гиперткани.</ATR_MakeHyperweaveCloth.jobString>
+
+  <ATR_MakeHyperweaveClothBulk.label>Завершить гиперткань x60</ATR_MakeHyperweaveClothBulk.label>
+  <ATR_MakeHyperweaveClothBulk.description>Создание гиперткани из незаконченной гиперткани.\n\nПолучится 60 ткани.</ATR_MakeHyperweaveClothBulk.description>
+  <ATR_MakeHyperweaveClothBulk.jobString>Завершает большой объём гиперткани.</ATR_MakeHyperweaveClothBulk.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Extract Mechanite Oil from Stasis Pod - Unassisted -->
+
+  <ATR_ExtractMechaniteOil_Unassisted.label>Извлечь механитное масло x1</ATR_ExtractMechaniteOil_Unassisted.label>
+  <ATR_ExtractMechaniteOil_Unassisted.description>Извлечь механитное масло из стручка.</ATR_ExtractMechaniteOil_Unassisted.description>
+  <ATR_ExtractMechaniteOil_Unassisted.jobString>Извлечение.</ATR_ExtractMechaniteOil_Unassisted.jobString>
+
+
+  <!-- Extract Mechanite Oil using recycled Chemoil -->
+
+  <ATR_ExtractMechaniteOil_Supported.label>Исп. химасло для извлечения механитного масла x5</ATR_ExtractMechaniteOil_Supported.label>
+  <ATR_ExtractMechaniteOil_Supported.description>Извлеките механитовое масло из стручка, используя химасло.</ATR_ExtractMechaniteOil_Supported.description>
+  <ATR_ExtractMechaniteOil_Supported.jobString>Извлечение.</ATR_ExtractMechaniteOil_Supported.jobString>
+
+
+  <!-- Filter Mechanite Oil -->
+
+  <ATR_FilterMechaniteOil.label>Фильтровать механитное масло x1</ATR_FilterMechaniteOil.label>
+  <ATR_FilterMechaniteOil.description>Фильтруйте механитное масло, чтобы получить рафинированный продукт, с гораздо более высокой концентрацией механитов и большим количеством химасла, который может быть повторно использован для улучшения последующих попыток добычи механитного масла.\n\nДля облегчения одного из этапов фильтрации необходима синткань, поскольку орг. волокна будут загрязнять продукт. Синткань разлагается и, в конце концов, растворяется в отработанном химасле.</ATR_FilterMechaniteOil.description>
+  <ATR_FilterMechaniteOil.jobString>Извлечение.</ATR_FilterMechaniteOil.jobString>
+
+
+  <!-- Scarlet Mechanite Oil -->
+
+  <ATR_Make_ScarletIncubatorOil.label>Изготовить алое инкубаторное масло x5</ATR_Make_ScarletIncubatorOil.label>
+  <ATR_Make_ScarletIncubatorOil.description>Использовать отфильтрованных механитов и вспомогательные материалы, чтобы создать густую суспензию для алых механитов.\n\nЭту субстанцию, можно перегонять в партии алых механитов, которые, затем, можно превратить в люциферий.</ATR_Make_ScarletIncubatorOil.description>
+  <ATR_Make_ScarletIncubatorOil.jobString>Извлечение.</ATR_Make_ScarletIncubatorOil.jobString>
+
+
+  <!-- Cerulean Mechanites -->
+
+  <ATR_Make_CeruleanMechanites.label>Изготовить лазурных механитов x8</ATR_Make_CeruleanMechanites.label>
+  <ATR_Make_CeruleanMechanites.description>Переработка отфильтрованных механитов, чтобы применить необходимые программы для создания гиперткани из подходящего сырья.\n\nИх можно наносить на незаконченную гиперткань, чтобы превратить её в конечный продукт.</ATR_Make_CeruleanMechanites.description>
+  <ATR_Make_CeruleanMechanites.jobString>Переработка.</ATR_Make_CeruleanMechanites.jobString>
+
+
+</LanguageData>

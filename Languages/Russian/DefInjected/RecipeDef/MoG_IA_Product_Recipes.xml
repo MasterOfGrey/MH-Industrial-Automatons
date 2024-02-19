@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Make Steel Yarn from Fibres -->
+
+  <ATR_Make_S_FibresIntoYarn.label>Плести стальные волокна в стальную пряжу x15</ATR_Make_S_FibresIntoYarn.label>
+  <ATR_Make_S_FibresIntoYarn.description>Используйте специальные прядильные инструменты для распускания стальных волокон в пряжу, похожую на шерсть.</ATR_Make_S_FibresIntoYarn.description>
+  <ATR_Make_S_FibresIntoYarn.jobString>Плетёт стальную пряжу.</ATR_Make_S_FibresIntoYarn.jobString>
+
+  <ATR_Make_4_S_FibresIntoYarn.label>Плести стальные волокна в стальную пряжу x60</ATR_Make_4_S_FibresIntoYarn.label>
+  <ATR_Make_4_S_FibresIntoYarn.description>Используйте специальные прядильные инструменты для распускания стальных волокон в пряжу, похожую на шерсть.</ATR_Make_4_S_FibresIntoYarn.description>
+  <ATR_Make_4_S_FibresIntoYarn.jobString>Плетёт много стальной пряжи.</ATR_Make_4_S_FibresIntoYarn.jobString>
+
+
+  <!-- Make Steel from Fibres -->
+
+  <ATR_Make_S_FibresIntoSteel.label>Плавка металлических волокон в сталь x2</ATR_Make_S_FibresIntoSteel.label>
+  <ATR_Make_S_FibresIntoSteel.description>Используйте высокую температуру и сильные электромагниты, чтобы расплавить стальные волокна в цельные блоки стали.</ATR_Make_S_FibresIntoSteel.description>
+  <ATR_Make_S_FibresIntoSteel.jobString>Плавит металлические волокна.</ATR_Make_S_FibresIntoSteel.jobString>
+
+  <ATR_Make_5_S_FibresIntoSteel.label>Плавка металлических волокон в сталь x10</ATR_Make_5_S_FibresIntoSteel.label>
+  <ATR_Make_5_S_FibresIntoSteel.description>Используйте высокую температуру и сильные электромагниты, чтобы расплавить стальные волокна в цельные блоки стали.</ATR_Make_5_S_FibresIntoSteel.description>
+  <ATR_Make_5_S_FibresIntoSteel.jobString>Плавит много металлических волокон.</ATR_Make_5_S_FibresIntoSteel.jobString>
+
+  <ATR_Make_10_S_FibresIntoSteel.label>Плавка металлических волокон в сталь x20</ATR_Make_10_S_FibresIntoSteel.label>
+  <ATR_Make_10_S_FibresIntoSteel.description>Используйте высокую температуру и сильные электромагниты, чтобы расплавить стальные волокна в цельные блоки стали.</ATR_Make_10_S_FibresIntoSteel.description>
+  <ATR_Make_10_S_FibresIntoSteel.jobString>Плавит много металлических волокон.</ATR_Make_10_S_FibresIntoSteel.jobString>
+
+
+  <!-- Make Plasteel Fibres from Steel Fibres -->
+
+  <ATR_Make_S_FibresInto_P_Fibres.label>Пропитать стальные волокна в пласталевые волокна x240</ATR_Make_S_FibresInto_P_Fibres.label>
+  <ATR_Make_S_FibresInto_P_Fibres.description>Переработка стальных волокон, в химическом супе, для превращения их в пласталь.</ATR_Make_S_FibresInto_P_Fibres.description>
+  <ATR_Make_S_FibresInto_P_Fibres.jobString>Пропитывает стальные волокна.</ATR_Make_S_FibresInto_P_Fibres.jobString>
+
+  <ATR_Make_4_S_FibresInto_P_Fibres.label>Пропитать стальные волокна в пласталевые волокна x960</ATR_Make_4_S_FibresInto_P_Fibres.label>
+  <ATR_Make_4_S_FibresInto_P_Fibres.description>Переработка стальных волокон, в химическом супе, для превращения их в пласталь.</ATR_Make_4_S_FibresInto_P_Fibres.description>
+  <ATR_Make_4_S_FibresInto_P_Fibres.jobString>Пропитывает много стальных волокон.</ATR_Make_4_S_FibresInto_P_Fibres.jobString>
+
+
+  <!-- Make Steel Fibres from Yarn -->
+
+  <ATR_Make_S_YarnIntoFibres.label>Распустить стальную пряжу на волокна x240</ATR_Make_S_YarnIntoFibres.label>
+  <ATR_Make_S_YarnIntoFibres.description>Используйте специальные прядильные инструменты для распускания стальных волокон в пряжу, похожую на шерсть.</ATR_Make_S_YarnIntoFibres.description>
+  <ATR_Make_S_YarnIntoFibres.jobString>Распускает стальную пряжу.</ATR_Make_S_YarnIntoFibres.jobString>
+
+  <ATR_Make_2_S_YarnIntoFibres.label>Распустить стальную пряжу на волокна x480</ATR_Make_2_S_YarnIntoFibres.label>
+  <ATR_Make_2_S_YarnIntoFibres.description>Используйте специальные прядильные инструменты для распускания стальных волокон в пряжу, похожую на шерсть.</ATR_Make_2_S_YarnIntoFibres.description>
+  <ATR_Make_2_S_YarnIntoFibres.jobString>Распускает много пряжи.</ATR_Make_2_S_YarnIntoFibres.jobString>
+
+
+  <!-- Make Steel from Fibres -->
+
+  <ATR_Make_S_YarnIntoSteel.label>Плавить стальную пряжу в сталь x2</ATR_Make_S_YarnIntoSteel.label>
+  <ATR_Make_S_YarnIntoSteel.description>Используйте высокую температуру и сильные электромагниты, чтобы переплавить стальную нить в твёрдые блоки. Стальная нить менее плотная и легковоспламеняющаяся, поэтому теряется некоторое количество стали.</ATR_Make_S_YarnIntoSteel.description>
+  <ATR_Make_S_YarnIntoSteel.jobString>Плавит стальную пряжу.</ATR_Make_S_YarnIntoSteel.jobString>
+
+  <ATR_Make_5_S_YarnIntoSteel.label>Плавить стальную пряжу в сталь x10</ATR_Make_5_S_YarnIntoSteel.label>
+  <ATR_Make_5_S_YarnIntoSteel.description>Используйте высокую температуру и сильные электромагниты, чтобы переплавить стальную нить в твёрдые блоки. Стальная нить менее плотная и легковоспламеняющаяся, поэтому теряется некоторое количество стали.</ATR_Make_5_S_YarnIntoSteel.description>
+  <ATR_Make_5_S_YarnIntoSteel.jobString>Плавит много стальной пряжи.</ATR_Make_5_S_YarnIntoSteel.jobString>
+
+
+  <!-- Make Fibres from Steel -->
+
+  <ATR_Make_SteelInto_S_Fibres.label>Разделить стали на волокна x1000</ATR_Make_SteelInto_S_Fibres.label>
+  <ATR_Make_SteelInto_S_Fibres.description>Используйте серию зубчатых роликов и токарный станок для преобразования стали в тонкие волокна. В этом процессе неизбежно теряется некоторое количество исходного материала.</ATR_Make_SteelInto_S_Fibres.description>
+  <ATR_Make_SteelInto_S_Fibres.jobString>Разделяет сталь.</ATR_Make_SteelInto_S_Fibres.jobString>
+
+  <ATR_Make_2_SteelInto_S_Fibres.label>Разделить стали на волокна x2000</ATR_Make_2_SteelInto_S_Fibres.label>
+  <ATR_Make_2_SteelInto_S_Fibres.description>Используйте серию зубчатых роликов и токарный станок для преобразования стали в тонкие волокна. В этом процессе неизбежно теряется некоторое количество исходного материала.</ATR_Make_2_SteelInto_S_Fibres.description>
+  <ATR_Make_2_SteelInto_S_Fibres.jobString>Разделяет много стали.</ATR_Make_2_SteelInto_S_Fibres.jobString>
+
+
+  <!-- Make Matt from Fibres -->
+
+  <ATR_Make_P_FibresIntoMatt.label>Спрессовать волокон пластали в матовую пласталь x15</ATR_Make_P_FibresIntoMatt.label>
+  <ATR_Make_P_FibresIntoMatt.description>Соединить волокна между двумя вибрирующими прорезиненными кусками пластали, чтобы получить волокнистый матовый материал. Затем соскоблите полученный матовый слой на мелкой сетке в химической ванне, процесс похож на дубление кожи, чтобы получить матовый аналог искусственной кожи, из пластали. Этот процесс не обратим.</ATR_Make_P_FibresIntoMatt.description>
+  <ATR_Make_P_FibresIntoMatt.jobString>Создаёт матовую пласталь.</ATR_Make_P_FibresIntoMatt.jobString>
+
+  <ATR_Make_4_P_FibresIntoMatt.label>Спрессовать волокон пластали в матовую пласталь x60</ATR_Make_4_P_FibresIntoMatt.label>
+  <ATR_Make_4_P_FibresIntoMatt.description>Соединить волокна между двумя вибрирующими прорезиненными кусками пластали, чтобы получить волокнистый матовый материал. Затем соскоблите полученный матовый слой на мелкой сетке в химической ванне, процесс похож на дубление кожи, чтобы получить матовый аналог искусственной кожи, из пластали. Этот процесс не обратим.</ATR_Make_4_P_FibresIntoMatt.description>
+  <ATR_Make_4_P_FibresIntoMatt.jobString>Создаёт много матовой пластали.</ATR_Make_4_P_FibresIntoMatt.jobString>
+
+
+  <!-- Make Plasteel from Fibres -->
+
+  <ATR_Make_P_FibresIntoPlasteel.label>Плавка металлических волокон в пласталь x2</ATR_Make_P_FibresIntoPlasteel.label>
+  <ATR_Make_P_FibresIntoPlasteel.description>Используйте высокую температуру и сильные электромагниты, чтобы расплавить пласталевые волокна в цельные блоки.</ATR_Make_P_FibresIntoPlasteel.description>
+  <ATR_Make_P_FibresIntoPlasteel.jobString>Плавит металлические волокна.</ATR_Make_P_FibresIntoPlasteel.jobString>
+
+  <ATR_Make_5_P_FibresIntoPlasteel.label>ПлаПлавка металлических волокон в пласталь x10</ATR_Make_5_P_FibresIntoPlasteel.label>
+  <ATR_Make_5_P_FibresIntoPlasteel.description>Используйте высокую температуру и сильные электромагниты, чтобы расплавить пласталевые волокна в цельные блоки.</ATR_Make_5_P_FibresIntoPlasteel.description>
+  <ATR_Make_5_P_FibresIntoPlasteel.jobString>Плавит много металлических волокон.</ATR_Make_5_P_FibresIntoPlasteel.jobString>
+
+  <ATR_Make_10_P_FibresIntoPlasteel.label>Плавка металлических волокон в пласталь x20</ATR_Make_10_P_FibresIntoPlasteel.label>
+  <ATR_Make_10_P_FibresIntoPlasteel.description>Используйте высокую температуру и сильные электромагниты, чтобы расплавить пласталевые волокна в цельные блоки.</ATR_Make_10_P_FibresIntoPlasteel.description>
+  <ATR_Make_10_P_FibresIntoPlasteel.jobString>Плавит много металлических волокон.</ATR_Make_10_P_FibresIntoPlasteel.jobString>
+
+
+  <!-- Make Plasteel from Matt -->
+
+  <ATR_Make_P_MattIntoPlasteel.label>Плавить матовую пласталь в пласталь x3</ATR_Make_P_MattIntoPlasteel.label>
+  <ATR_Make_P_MattIntoPlasteel.description>Используйте высокую температуру и сильные электромагниты, чтобы расплавить матовую пласталь в цельные блоки. Матовая пласталь имеет дополнительные летучие вещества, которые при выплавке испаряются в газообразные соединения стали, поэтому небольшое количество пластали, теряется.</ATR_Make_P_MattIntoPlasteel.description>
+  <ATR_Make_P_MattIntoPlasteel.jobString>Плавит матовую пласталь.</ATR_Make_P_MattIntoPlasteel.jobString>
+
+  <ATR_Make_5_P_MattIntoPlasteel.label>Плавить матовую пласталь в пласталь x15</ATR_Make_5_P_MattIntoPlasteel.label>
+  <ATR_Make_5_P_MattIntoPlasteel.description>Используйте высокую температуру и сильные электромагниты, чтобы расплавить матовую пласталь в цельные блоки. Матовая пласталь имеет дополнительные летучие вещества, которые при выплавке испаряются в газообразные соединения стали, поэтому небольшое количество пластали, теряется.</ATR_Make_5_P_MattIntoPlasteel.description>
+  <ATR_Make_5_P_MattIntoPlasteel.jobString>Плавит много матовой пластали.</ATR_Make_5_P_MattIntoPlasteel.jobString>
+
+
+  <!-- Make Fibres from Plasteel -->
+
+  <ATR_Make_PlasteelInto_P_Fibres.label>Разделить пласталь на волокна x1000</ATR_Make_PlasteelInto_P_Fibres.label>
+  <ATR_Make_PlasteelInto_P_Fibres.description>Используйте серию зубчатых роликов и токарный станок для преобразования пластали в тонкие волокна. В этом процессе неизбежно теряется некоторое количество исходного материала.</ATR_Make_PlasteelInto_P_Fibres.description>
+  <ATR_Make_PlasteelInto_P_Fibres.jobString>Разделяет пласталь.</ATR_Make_PlasteelInto_P_Fibres.jobString>
+
+  <ATR_Make_2_PlasteelInto_P_Fibres.label>Разделить пласталь на волокна x2000</ATR_Make_2_PlasteelInto_P_Fibres.label>
+  <ATR_Make_2_PlasteelInto_P_Fibres.description>Используйте серию зубчатых роликов и токарный станок для преобразования пластали в тонкие волокна. В этом процессе неизбежно теряется некоторое количество исходного материала.</ATR_Make_2_PlasteelInto_P_Fibres.description>
+  <ATR_Make_2_PlasteelInto_P_Fibres.jobString>Разделяет много пластали.</ATR_Make_2_PlasteelInto_P_Fibres.jobString>
+
+
+  <!-- Base Polysynthoprene Recipe -->
+
+  <ATR_Make_PolysynthopreneThread.label>Синтезировать полисинтетическую нить x10</ATR_Make_PolysynthopreneThread.label>
+  <ATR_Make_PolysynthopreneThread.description>Полимеризуйте полисинтетическую нить вокруг сердцевины из пласталевого волокна.</ATR_Make_PolysynthopreneThread.description>
+  <ATR_Make_PolysynthopreneThread.jobString>Синтезирует полисинтетическую нить.</ATR_Make_PolysynthopreneThread.jobString>
+
+
+  <!-- Bulk Polysynthoprene Recipe -->
+
+  <ATR_Make_4_PolysynthopreneThread.label>Синтезировать полисинтетическую нить x10</ATR_Make_4_PolysynthopreneThread.label>
+  <ATR_Make_4_PolysynthopreneThread.description>Полимеризуйте полисинтетическую нить вокруг сердцевины из пласталевого волокна.</ATR_Make_4_PolysynthopreneThread.description>
+  <ATR_Make_4_PolysynthopreneThread.jobString>Синтезирует много полисинтетической нити.</ATR_Make_4_PolysynthopreneThread.jobString>
+
+
+</LanguageData>
